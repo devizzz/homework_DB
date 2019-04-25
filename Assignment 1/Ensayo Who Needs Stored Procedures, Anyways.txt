@@ -1,0 +1,9 @@
+Who Needs Stored Procedures, Anyways?
+
+¿Quién quiere escribir un procedimiento almacenado estúpido para cada pequeña consulta simple y estúpida que se necesita?
+
+Realmente no quieres estar escribiendo mucho código en estas cosas. Para el contexto, JavaScript es un paso gigante desde PL / SQL o T-SQL. La transición frecuente entre dos IDE totalmente diferentes, con interfaces e idiomas completamente diferentes, no es exactamente productiva. A menos que el proc esté codificado internamente con el extraño manejo de excepciones T-SQL o PL / SQL, obtendremos 'errores' crípticos basados en la línea particular dentro del proc que falló, como que la tabla no tiene filas.
+
+Entonces, si no tienes cuidado, puedes terminar con un millón de parámetros. Si tiene que rellenar una fila de la tabla con más de 20 campos usando un proc, diga hola a más de 20 parámetros. No tengo idea de lo que está haciendo un proceso, o qué tipo de cursor o valores me devolverá. El SQL en línea puede no ser bonito, pero al menos puedo verlo en contexto, junto con la otra lógica de negocios.
+
+La nueva optimización del plan de ejecución en caché en SQL Server se parece mucho a la compilación JIT. La cantidad de tiempo que lleva calcular el hash del texto de SQL dinámico para buscar el plan de ejecución en caché. Puedo imaginar bastantes escenarios en los que la sobrecarga anterior desaparecería en el ruido de la red de ida y vuelta. Lo que me molesta son las personas que emiten argumentos anecdóticos que afirman que los procedimientos almacenados tienen un rendimiento "mucho mejor" que el SQL dinámico.
