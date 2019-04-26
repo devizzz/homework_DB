@@ -1,0 +1,14 @@
+Uno de los elementos con los que estamos luchando ahora en Stack Overflow es cómo mantener niveles de rendimiento casi instantáneos en una base de datos relacional a medida que aumenta la cantidad de datos. Más específicamente, cómo escalar nuestro sistema de etiquetado. Dare Obasanjo tuvo una excelente publicación Cuándo no normalizar su base de datos SQL en la que proporciona un esquema de base de datos de muestra para un sitio de redes sociales genérico. Cada entidad está representada una vez, y solo una vez, por lo que casi no hay riesgo de inconsistencias en los datos.
+
+Pero este diseño también requiere de seis combinaciones para recuperar la información de un solo usuario. Esas seis uniones tampoco están haciendo nada para ayudar al rendimiento de su sistema. La normalización en toda regla no es simplemente difícil de entender y difícil de trabajar, también puede ser bastante lenta. Como señala Dare, la solución obvia es desnormalizar: colapsar una gran cantidad de datos en una sola tabla de Usuarios.
+
+Incluso una PC modesta para los estándares actuales, digamos una caja de doble núcleo con 4 gigabytes de memoria, le brindará un rendimiento casi idéntico en cualquier caso para cualquier cosa que no sea la base de datos más grande. Suponiendo que su equipo pueda escribir consultas razonablemente bien afinadas, por supuesto. No hay escasez de fascinantes historias de guerra de bases de datos de compañías que lo hicieron grande.
+
+
+Por lo tanto, cuando se trata del diseño de bases de datos, mida el rendimiento, pero intente errar fuertemente en el lado del diseño sano y simple. Elija el esquema de base de datos que crea que es más fácil de entender y con el que trabaje a diario. A pesar de la abundante evidencia de que la normalización rara vez se escala, encuentro que muchos ingenieros de software mantendrán celosamente la normalización total de la base de datos solo por principio, mucho después de que haya dejado de tener sentido. Cuando cultivamos Cofax en Knight Ridder, nos topamos con un bache desagradable en la carretera luego de agregar nuestro 17 periódico al sistema.
+
+El rendimiento ya no era lo que solía ser y hubo momentos en que los servicios no respondían. Se inició un proyecto para resolver el problema, para buscar 'la pistola humeante'. Así que nos concentramos en optimizar la pila de aplicaciones. No estuve de acuerdo e hice varios argumentos de que era nuestra base de datos la que necesitaba atención.
+
+Fue una píldora difícil de tragar para mí ya que era el diseñador de bases de datos original. Se llamó a los consultores. Declararon que el diseño de db era el correcto, que el problema debe haber sido la aplicación. Después de dos meses de que el equipo impulsó numerosos lanzamientos pensados para resolver el problema, sin éxito, volvimos a mis argumentos originales.
+
+Pat Helland señala que las personas se normalizan porque sus profesores les dijeron que lo hicieran.
