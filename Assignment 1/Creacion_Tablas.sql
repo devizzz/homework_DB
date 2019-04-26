@@ -1,166 +1,185 @@
-CREATE TABLE "Departamento" (
-  "Id" numeric(9,0) primary key,
-  "Codigo_departamento" numeric(9,0) not null,
-  "Nombre" varchar2(250)
+CREATE TABLE Departamentos (
+  Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
+  Codigo_departamento varchar(255) not null,
+  Nombre varchar2(255)
 );
+ALTER TABLE Departamentos ADD PRIMARY KEY (Id) ENABLE;
 
-CREATE TABLE "Ciudad" (
-  "Id" numeric(9,0) primary key not null,
-  "Nombre" varchar(250),
-  "Id_departamento" numeric(9,0),
-  constraint fk_Id_departamento foreign key ("Id_departamento") references "Departamento"("Id")
+CREATE TABLE Municipios (
+  Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
+  Nombre varchar(255),
+  Id_departamento number,
+  constraint fk_Id_departamento foreign key (Id_departamento) references Departamentos(Id)
 );
+ALTER TABLE Municipios ADD PRIMARY KEY (Id) ENABLE;
 
-CREATE TABLE "Codigo_postal" (
-  "Id" numeric(9,0) primary key,  
-  "Zona_postal" varchar2(250),
-  "Codigo_postal" numeric(*,0)
+CREATE TABLE Codigos_postales (
+  Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
+  Zona_postal varchar2(255),
+  Codigo_postal varchar2(255)
 );
+ALTER TABLE Codigos_postales ADD PRIMARY KEY (Id) ENABLE;
 
-CREATE TABLE "Cod_postal_por_ciudad" (
-  "Id" numeric(9,0) primary key,
-  "Id_Ciudad" numeric(9,0),
-  "Id_Codigo_postal" numeric(9,0),
-  constraint fk_Id_Ciudad foreign key ("Id_Ciudad") references "Ciudad" ("Id"),
-  constraint fk_Id_Codigo_Postal foreign key ("Id_Codigo_postal") references "Codigo_postal"("Id")
+CREATE TABLE Cod_postales_por_municipios (
+  Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
+  Id_Municipio number not null,
+  Id_Codigo_postal number not null,
+  constraint fk_Id_Municipio foreign key (Id_Municipio) references Municipios (Id),
+  constraint fk_Id_Codigo_Postal foreign key (Id_Codigo_postal) references Codigos_postales(Id)
 );
+ALTER TABLE Cod_postales_por_municipios ADD PRIMARY KEY (Id) ENABLE;
 
-CREATE TABLE "Empleados" (
-  "Id" numeric(*,0) primary key,
-  "Nombre" varchar2(250) not null,
-  "Cedula" numeric(*,0) not null,
-  "Codigo_empleado" numeric(9,0),
-  "Direccion" varchar2(250) not null,
-  "telefono" varchar2(250) not null,
-  "Jefe_inmediato" varchar2(250) not null,
-  "Cargo" varchar2(250) not null
+CREATE TABLE Empleados (
+  Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
+  Nombre varchar2(255) not null,
+  Cedula varchar2(15) not null,
+  Codigo_empleado varchar2(255),
+  Direccion varchar2(255) not null,
+  Telefono varchar2(13) not null,
+  Jefe_inmediato number,
+  Cargo varchar2(255) not null
 );
+ALTER TABLE Empleados ADD PRIMARY KEY (Id) ENABLE;
+ALTER TABLE Empleados ADD CONSTRAINT fk_Id_Empleado FOREIGN KEY (Jefe_inmediato) REFERENCES Empleados(Id) ENABLE;
 
-CREATE TABLE "Centro_recibo" (
-  "Id" numeric(9,0) primary key,  
-  "Id_Ciudad" numeric(9,0),
-  "Id_Empleado" numeric(*,0),
-  "Nombre" varchar2(250),
-  "Direccion" varchar2(250),
-  "telefono" varchar2(250),
-  "Tipo_de_Centro" varchar2(250),
-  constraint fk_Id_Ciudad1 foreign key ("Id_Ciudad") references "Ciudad" ("Id"),
-  constraint fk_Id_Empleado foreign key ("Id_Empleado") references "Empleados" ("Id")
+CREATE TABLE Centros_recibos (
+  Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
+  Id_Municipio number not null,
+  Id_Empleado number not null,
+  Nombre varchar2(255),
+  Direccion varchar2(255),
+  telefono varchar2(13),
+  Tipo_de_Centro varchar2(255),
+  constraint fk_Id_Municipio_CentroRecibo foreign key (Id_Municipio) references Municipios (Id),
+  constraint fk_Id_Empleado_CentroRecibo foreign key (Id_Empleado) references Empleados (Id)
 );
+ALTER TABLE Centros_recibos ADD PRIMARY KEY (Id) ENABLE;
 
-CREATE TABLE "Empleado_por_Centro" (
-  "Id" numeric(9,0) primary key,
-  "Id_Centro" numeric(9,0),
-  "Id_empleado" numeric(9,0),
-  "Encargado" varchar2(250),
-  constraint fk_Id_Empleado1 foreign key ("Id_empleado") references "Empleados" ("Id"),
-  constraint fk_Id_Centro foreign key ("Id_Centro") references "Centro_recibo" ("Id")
+CREATE TABLE Empleados_por_Centros (
+  Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
+  Id_Centro number not null,
+  Id_empleado number not null,
+  Encargado char(1) check (Encargado in ( 'Y', 'N' )),
+  constraint fk_Id_Empleado_Centros foreign key (Id_empleado) references Empleados (Id),
+  constraint fk_Id_Centro foreign key (Id_Centro) references Centros_recibos (Id)
 );
+ALTER TABLE Empleados_por_Centros ADD PRIMARY KEY (Id) ENABLE;
 
-CREATE TABLE "Vehiculos" (
-  "Id" numeric(9,0) primary key,
-  "Placa" varchar2(250),
-  "Marca" varchar2(250),
-  "Modelo" varchar2(250),
-  "Linea" varchar2(250),
-  "Tipo_combustible" varchar2(250),
-  "kilometraje" varchar2(250),
-  "Id_Centro_recibo" numeric(9,0),
-  constraint fk_Id_Centro_recibo foreign key ("Id_Centro_recibo") references "Centro_recibo" ("Id")
+CREATE TABLE Vehiculos (
+  Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
+  Placa varchar2(6),
+  Marca varchar2(255),
+  Modelo varchar2(255),
+  Linea varchar2(255),
+  Tipo_combustible varchar2(255),
+  kilometraje number,
+  Id_Centro_recibo number not null,
+  constraint fk_Id_Centro_recibo_vehiculo foreign key (Id_Centro_recibo) references Centros_recibos (Id)
 );
+ALTER TABLE Vehiculos ADD PRIMARY KEY (Id) ENABLE;
 
-CREATE TABLE "Mantenimientos" (
-  "Id" numeric(9,0) primary key,
-  "Fecha" date,
-  "Id_Estado" numeric(9,0),
-  "Id_Empleado" numeric(*,0),
-  "Kilometraje" varchar2(250),
-  constraint fk_Id_Estado foreign key ("Id_Estado") references "Estados" ("Id"),
-  constraint fk_Id_Empleado2 foreign key ("Id_Empleado") references "Empleados" ("Id")
+CREATE TABLE Estados (
+  Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
+  Nombre varchar2(255)
 );
+ALTER TABLE Estados ADD PRIMARY KEY (Id) ENABLE;
 
-CREATE TABLE "Servicios" (
-  "Id" numeric(9,0) primary key,
-  "Nombre" varchar2(250)
+CREATE TABLE Mantenimientos (
+  Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
+  Fecha date not null,
+  Id_Estado number not null,
+  Id_Empleado number not null,
+  Kilometraje number not null,
+  constraint fk_Id_Estado foreign key (Id_Estado) references Estados (Id),
+  constraint fk_Id_Empleado_Mantenimientos foreign key (Id_Empleado) references Empleados (Id)
 );
+ALTER TABLE Mantenimientos ADD PRIMARY KEY (Id) ENABLE;
 
-CREATE TABLE "Estados" (
-  "Id" numeric(9,0) primary key,
-  "Nombre" varchar2(250)
+CREATE TABLE Servicios (
+  Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
+  Nombre varchar2(255) not null
 );
+ALTER TABLE Servicios ADD PRIMARY KEY (Id) ENABLE;
 
-CREATE TABLE "Detalles" (
-  "Id" numeric(9,0) primary key,
-  "Id_Servicio" numeric(9,0),
-  "Id_Mantenimiento" numeric(9,0),
-  "Id_Estado" numeric(9,0),
-  "Observaciones" varchar2(250),
-  constraint fk_Id_Servicio foreign key ("Id_Servicio") references "Servicios" ("Id"),
-  constraint fk_Id_Mantenimiento foreign key ("Id_Mantenimiento") references "Mantenimientos" ("Id"),
-  constraint fk_Id_Estado1 foreign key ("Id_Estado") references "Estados" ("Id")
+CREATE TABLE Detalles (
+  Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
+  Id_Servicio number not null,
+  Id_Mantenimiento number not null,
+  Id_Estado number not null,
+  Observaciones varchar2(255),
+  constraint fk_Id_Servicio foreign key (Id_Servicio) references Servicios (Id),
+  constraint fk_Id_Mantenimiento foreign key (Id_Mantenimiento) references Mantenimientos (Id),
+  constraint fk_Id_Estado_Detalle foreign key (Id_Estado) references Estados (Id)
 );
+ALTER TABLE Detalles ADD PRIMARY KEY (Id) ENABLE;
 
-CREATE TABLE "Tipo_Servicio" (
-  "Id" numeric(9,0) primary key,
-  "Nombre" varchar2(250)
+CREATE TABLE Tipos_Servicios (
+  Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
+  Nombre varchar2(255) not null
 );
+ALTER TABLE Tipos_Servicios ADD PRIMARY KEY (Id) ENABLE;
 
-CREATE TABLE "Clientes" (
-  "Id" numeric(*,0) primary key,
-  "Nombre" varchar2(250) not null,
-  "Cedula" numeric(*,0),
-  "Telefono" varchar2(250) not null,
-  "Direccion" varchar2(250) not null
+CREATE TABLE Clientes (
+  Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
+  Nombre varchar2(255) not null,
+  Cedula varchar2(15) not null,
+  Telefono varchar2(13) not null,
+  Direccion varchar2(100) not null
 );
+ALTER TABLE Clientes ADD PRIMARY KEY (Id) ENABLE;
 
-CREATE TABLE "Guia" (
-  "Id" numeric(9,0) primary key,
-  "Peso_ideal" varchar2(250),
-  "Ancho" varchar2(250),
-  "Alto" varchar2(250),
-  "Largo" varchar2(250),
-  "Peso_Volumen" varchar2(250),
-  "Id_Tipo_Servicio" numeric(9,0),
-  "Fecha" date,
-  "Observaciones" varchar2(250),
-  "Cantidad" varchar2(250),
-  "Flete_fijo" varchar2(250),
-  "Flete_variables" varchar2(250),
-  "Otras_variables" varchar2(250),
-  "Valor_Servicio" varchar2(250),
-  constraint fk_Id_Tipo_Servicio foreign key ("Id_Tipo_Servicio") references "Servicios" ("Id")
+CREATE TABLE Guias (
+  Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
+  Peso_real double precision not null,
+  Ancho double precision,
+  Alto double precision,
+  Largo double precision,
+  Peso_Volumen double precision,
+  Id_Tipo_Servicio number not null,
+  Fecha date not null,
+  Observaciones varchar2(255),
+  Cantidad number not null,
+  Flete_fijo decimal,
+  Flete_variables decimal,
+  Otras_variables decimal,
+  Valor_Servicio decimal,
+  constraint fk_Id_Tipo_Servicio foreign key (Id_Tipo_Servicio) references Servicios (Id)
 );
+ALTER TABLE Guias ADD PRIMARY KEY (Id) ENABLE;
 
-CREATE TABLE "Estados_Guia" (
-  "Id" numeric(9,0) primary key,
-  "Id_Estados" numeric(9,0),
-  "Id_Guia" numeric(9,0),
-  constraint fk_Id_Estados foreign key ("Id_Estados") references "Estados" ("Id"),
-  constraint fk_Id_guia foreign key ("Id_Guia") references "Guia" ("Id")
+CREATE TABLE Estados_Guias (
+  Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
+  Id_Estados number not null,
+  Id_Guia number not null,
+  constraint fk_Id_Estados foreign key (Id_Estados) references Estados (Id),
+  constraint fk_Id_guia foreign key (Id_Guia) references Guias (Id)
 );
+ALTER TABLE Estados_Guias ADD PRIMARY KEY (Id) ENABLE;
 
-CREATE TABLE "Ubicaciones" (
-  "Id" numeric(9,0) primary key,
-  "Id_Postal" numeric(9,0),
-  "Id_Cliente" numeric(9,0),
-  constraint fk_Id_Postal foreign key ("Id_Postal") references "Cod_postal_por_ciudad" ("Id"),
-  constraint fk_Id_Cliente foreign key ("Id_Cliente") references "Clientes" ("Id")
+CREATE TABLE Ubicaciones (
+  Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
+  Id_Postal number not null,
+  Id_Cliente number not null,
+  constraint fk_Id_Postal foreign key (Id_Postal) references Cod_postales_por_municipios (Id),
+  constraint fk_Id_Cliente foreign key (Id_Cliente) references Clientes (Id)
 );
+ALTER TABLE Ubicaciones ADD PRIMARY KEY (Id) ENABLE;
 
-CREATE TABLE "Ubicaciones_por_Guia" (
-  "Id" numeric(9,0) primary key,
-  "Id_Ubicacion" numeric(9,0),
-  "Id_Guia" numeric(9,0),
-  "Origen_o_Destino" varchar2(250),
-  constraint fk_Id_Ubicacion foreign key ("Id_Ubicacion") references "Ubicaciones" ("Id"),
-  constraint fk_Id_Guia1 foreign key ("Id_Guia") references "Guia" ("Id")
+CREATE TABLE Ubicaciones_por_Guias (
+  Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
+  Id_Ubicacion number not null,
+  Id_Guia number not null,
+  OrigenDestino char(1) check (OrigenDestino in ( 'O', 'D' )),
+  constraint fk_Id_Ubicacion foreign key (Id_Ubicacion) references Ubicaciones (Id),
+  constraint fk_Id_Guia1 foreign key (Id_Guia) references Guias (Id)
 );
+ALTER TABLE Ubicaciones_por_Guias ADD PRIMARY KEY (Id) ENABLE;
 
-CREATE TABLE "Cliente_por_Guia" (
-  "Id" numeric(9,0) primary key,
-  "Id_Cliente" numeric(9,0),
-  "Id_Guia" numeric(9,0),
-  constraint fk_Id_Guia2 foreign key ("Id_Guia") references "Guia" ("Id"),
-  constraint fk_Id_Cliente1 foreign key ("Id_Cliente") references "Clientes" ("Id")
+CREATE TABLE Clientes_por_Guias (
+  Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
+  Id_Cliente number not null,
+  Id_Guia number not null,
+  constraint fk_Id_Guias_ClientesGuias foreign key (Id_Guia) references Guias (Id),
+  constraint fk_Id_Clientes_ClientesGuias foreign key (Id_Cliente) references Clientes (Id)
 );
-
+ALTER TABLE Clientes_por_Guias ADD PRIMARY KEY (Id) ENABLE;

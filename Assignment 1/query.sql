@@ -12,6 +12,8 @@ create tablespace coordinadora datafile
 -- validar como establecer este tablespace para ser usado en el sistema y el nombre del datafile
 create undo tablespace coordinadora_undo datafile
 'DATAFILE_UNDO' size 100M;
+-- colocamos el tablespace online
+alter tablespace coordinadora_undo online;
 
 -- validar el nombre del datafile
 create bigfile tablespace coordinadora_bigfile datafile
