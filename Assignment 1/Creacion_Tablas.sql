@@ -7,25 +7,19 @@ ALTER TABLE Departamentos ADD PRIMARY KEY (Id) ENABLE;
 
 CREATE TABLE Municipios (
   Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
-  Nombre varchar(255),
+  Codigo_Municipio varchar(255) not null,
+  Nombre varchar(255) not null,
   Id_departamento number,
   constraint fk_Id_departamento foreign key (Id_departamento) references Departamentos(Id)
 );
 ALTER TABLE Municipios ADD PRIMARY KEY (Id) ENABLE;
 
-CREATE TABLE Codigos_postales (
-  Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
-  Zona_postal varchar2(255),
-  Codigo_postal varchar2(255)
-);
-ALTER TABLE Codigos_postales ADD PRIMARY KEY (Id) ENABLE;
-
 CREATE TABLE Cod_postales_por_municipios (
   Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
+  Zona_postal varchar2(255) not null,
+  Codigo_postal varchar2(255) not null,
   Id_Municipio number not null,
-  Id_Codigo_postal number not null,
-  constraint fk_Id_Municipio foreign key (Id_Municipio) references Municipios (Id),
-  constraint fk_Id_Codigo_Postal foreign key (Id_Codigo_postal) references Codigos_postales(Id)
+  constraint fk_Id_Municipio foreign key (Id_Municipio) references Municipios (Id)
 );
 ALTER TABLE Cod_postales_por_municipios ADD PRIMARY KEY (Id) ENABLE;
 
@@ -44,14 +38,12 @@ ALTER TABLE Empleados ADD CONSTRAINT fk_Id_Empleado FOREIGN KEY (Jefe_inmediato)
 
 CREATE TABLE Centros_recibos (
   Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
-  Id_Municipio number not null,
-  Id_Empleado number not null,
+  Id_CodigoPostal number not null,
   Nombre varchar2(255),
   Direccion varchar2(255),
   telefono varchar2(13),
   Tipo_de_Centro varchar2(255),
-  constraint fk_Id_Municipio_CentroRecibo foreign key (Id_Municipio) references Municipios (Id),
-  constraint fk_Id_Empleado_CentroRecibo foreign key (Id_Empleado) references Empleados (Id)
+  constraint fk_Id_Postal_CentroRecibo foreign key (Id_CodigoPostal) references Cod_postales_por_municipios (Id)
 );
 ALTER TABLE Centros_recibos ADD PRIMARY KEY (Id) ENABLE;
 
@@ -73,6 +65,7 @@ CREATE TABLE Vehiculos (
   Linea varchar2(255),
   Tipo_combustible varchar2(255),
   kilometraje number,
+  capacidad  varchar2(10) not null,
   Id_Centro_recibo number not null,
   constraint fk_Id_Centro_recibo_vehiculo foreign key (Id_Centro_recibo) references Centros_recibos (Id)
 );
@@ -87,10 +80,12 @@ ALTER TABLE Estados ADD PRIMARY KEY (Id) ENABLE;
 CREATE TABLE Mantenimientos (
   Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
   Fecha date not null,
+  Id_Vehiculo number not null,
   Id_Estado number not null,
   Id_Empleado number not null,
   Kilometraje number not null,
   constraint fk_Id_Estado foreign key (Id_Estado) references Estados (Id),
+  constraint fk_Id_Vehiculo foreign key (Id_Vehiculo) references Vehiculos (Id),
   constraint fk_Id_Empleado_Mantenimientos foreign key (Id_Empleado) references Empleados (Id)
 );
 ALTER TABLE Mantenimientos ADD PRIMARY KEY (Id) ENABLE;
@@ -183,3 +178,4 @@ CREATE TABLE Clientes_por_Guias (
   constraint fk_Id_Clientes_ClientesGuias foreign key (Id_Cliente) references Clientes (Id)
 );
 ALTER TABLE Clientes_por_Guias ADD PRIMARY KEY (Id) ENABLE;
+
