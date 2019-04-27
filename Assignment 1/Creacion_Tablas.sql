@@ -138,7 +138,7 @@ CREATE TABLE Guias (
   Flete_variables decimal,
   Otras_variables decimal,
   Valor_Servicio decimal,
-  constraint fk_Id_Tipo_Servicio foreign key (Id_Tipo_Servicio) references Servicios (Id)
+  constraint fk_Id_Tipo_Servicio foreign key (Id_Tipo_Servicio) references Tipos_Servicios (Id)
 );
 ALTER TABLE Guias ADD PRIMARY KEY (Id) ENABLE;
 
