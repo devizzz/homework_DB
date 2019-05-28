@@ -1,0 +1,501 @@
+PESO_REAL,ANCHO,ALTO,LARGO,PESO_VOLUMEN,TIPO_SERVICIO,FECHA,OBSERVACIONES,CANTIDAD,FLETE_FIJO,FLETE_VARIABLES,OTRAS_VARIABLES,VALOR_SERVICIO,ID_CLIENTE
+38.9,18.5,9.8,5.0,362600.0,mensajeria,20/12/2018,amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et,1,36449.87,24368.56,9542.03,80555.56,56
+84.5,62.3,21.8,62.4,33899174.4,mercancia,17/10/2018,a odio in hac habitasse platea dictumst maecenas ut massa quis,4,11258.2,32788.44,4178.0,35221.17,109
+30.6,9.1,41.8,27.6,4199395.2,firma de documentos,28/6/2018,nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at,8,26803.25,19428.25,7146.32,75954.64,106
+67.8,74.7,8.2,6.9,1690610.4,radicacion de documentos,16/10/2018,est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu,3,7479.67,17429.41,5548.83,59372.46,104
+45.9,14.8,61.2,65.3,23658451.2,mercancia,23/8/2018,nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus,8,41445.89,24445.57,3987.49,11328.49,112
+76.0,45.1,17.5,62.6,19762820.0,mercancia,1/6/2018,vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna,9,9726.68,45803.25,8645.73,30222.71,45
+14.9,77.7,91.1,42.9,121466545.2,mensajeria,11/6/2018,mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer,7,12711.62,22073.81,4504.53,38852.66,117
+18.9,4.9,65.7,10.1,1300597.2,mercancia,3/9/2018,ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor,7,39805.24,49355.84,9737.06,34367.57,41
+43.5,67.0,82.8,98.5,218575440.0,radicacion de documentos,1/11/2018,consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices,4,47388.81,11214.21,8679.55,91669.85,114
+60.5,31.5,28.7,5.9,2133558.0,carga aerea,4/8/2018,erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc,4,23238.54,2030.84,1896.63,86527.91,100
+35.2,14.2,13.2,80.7,6050563.2,mercancia,7/3/2019,turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris,7,24639.39,43895.24,5289.91,97625.91,54
+93.0,90.7,79.8,81.1,234796178.4,carga aerea,3/7/2018,eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices,1,45289.63,47940.67,2650.94,2107.21,46
+70.3,57.5,43.5,8.8,8804400.0,firma de documentos,17/2/2019,platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat,9,23367.16,31504.2,9514.42,23902.14,28
+44.9,91.9,17.4,37.1,23730050.4,mercancia,4/3/2019,molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna,9,19320.1,37556.81,8683.11,60313.0,43
+3.0,3.0,13.2,8.9,140976.0,mensajeria,9/11/2018,at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient,4,3628.44,5390.45,3403.62,7981.21,50
+25.7,33.7,10.0,2.2,296560.0,mercancia,3/8/2018,felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed,7,34752.83,38589.71,6238.94,94130.02,47
+64.1,35.3,65.0,38.7,35518860.0,mensajeria,11/10/2018,erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus,7,2728.38,19642.2,5832.09,51831.53,76
+58.6,20.8,76.6,33.0,21031296.0,firma de documentos,24/5/2019,iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam,1,15799.23,4037.86,1563.83,73906.68,109
+44.9,91.2,8.6,90.7,28455129.6,carga aerea,26/12/2018,in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae,10,41525.1,31815.5,5580.75,66927.12,118
+87.3,89.0,25.2,43.1,38665872.0,mercancia,28/12/2018,ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam tristique tortor eu pede,7,17162.72,8297.14,3251.08,61920.58,25
+92.5,27.8,99.8,6.4,7102566.4,mensajeria,29/5/2018,amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin,3,36631.8,6985.71,8097.62,31502.85,80
+64.7,82.1,32.6,76.3,81685559.2,radicacion de documentos,29/8/2018,ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus,9,16527.49,25414.04,4315.79,53539.33,72
+94.1,99.7,49.6,15.9,31450963.2,radicacion de documentos,22/10/2018,vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede,10,40065.16,38923.55,3360.9,49472.7,107
+1.9,44.0,42.3,70.3,52336944.0,firma de documentos,12/9/2018,convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor,10,32132.48,40909.11,5640.74,6038.17,118
+37.5,74.1,69.4,18.3,37643392.8,mensajeria,29/1/2019,platea dictumst morbi vestibulum velit id pretium iaculis diam erat,6,44016.32,21707.01,8188.88,23950.57,65
+79.0,98.0,91.2,34.5,123338880.0,firma de documentos,11/10/2018,platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel,6,33657.26,26188.55,3890.63,32339.37,83
+26.5,68.5,51.8,75.1,106590932.0,firma de documentos,12/12/2018,sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper,4,24409.95,22325.6,7539.83,14270.01,96
+52.4,97.4,30.5,33.5,39807380.0,carga aerea,11/11/2018,velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum,2,30435.09,28123.43,3569.97,75743.78,67
+57.8,17.5,2.7,11.0,207900.0,mercancia,14/2/2019,vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices,9,2247.34,9295.69,8621.19,95622.12,46
+72.3,58.6,81.0,76.4,145056096.0,mercancia,30/11/2018,in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla,6,43265.66,48408.69,3139.5,61867.26,36
+72.0,76.7,32.4,4.1,4075531.2,mercancia,9/6/2018,quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis,3,5715.4,18049.4,1169.94,44866.37,79
+21.9,18.5,21.8,13.8,2226216.0,carga aerea,20/1/2019,mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat,7,6828.4,21736.87,1114.57,5914.58,29
+83.9,9.9,51.7,28.8,5896281.6,firma de documentos,15/3/2019,luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus,3,42823.15,42914.64,9125.42,88571.62,72
+73.7,41.5,71.4,93.9,111294036.0,carga aerea,8/7/2018,nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula,9,23717.2,7534.1,7294.54,56742.95,81
+99.0,93.8,53.0,34.4,68406464.0,mercancia,13/11/2018,orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis,6,6994.99,3896.46,3506.03,83637.12,43
+68.8,20.2,48.4,30.2,11810374.4,firma de documentos,22/8/2018,euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec,4,30130.27,27973.45,3342.77,67854.53,54
+28.2,25.4,21.9,45.0,10012680.0,carga aerea,10/4/2019,curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi,1,9368.8,28017.66,1464.01,72297.84,115
+9.9,32.0,64.2,24.4,20050944.0,mensajeria,14/2/2019,vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient,7,33114.18,5166.41,8676.44,61839.69,49
+8.6,54.1,84.2,83.7,152508765.6,radicacion de documentos,24/8/2018,ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices,3,20055.48,46454.64,9689.41,10740.13,112
+77.5,32.0,97.1,8.6,10688768.0,mercancia,3/4/2019,posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat,4,12204.56,31689.69,3917.93,37041.46,30
+17.6,39.6,33.2,44.6,23454604.8,mercancia,11/9/2018,id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et,2,4471.77,11100.6,8677.04,43561.1,40
+46.4,7.8,75.8,60.5,14308008.0,firma de documentos,5/7/2018,curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo,1,22867.71,33311.13,5241.33,41150.04,108
+78.4,71.8,93.0,18.8,50214048.0,firma de documentos,3/11/2018,est phasellus sit amet erat nulla tempus vivamus in felis eu sapien,8,22482.09,1297.11,6091.68,63444.82,79
+90.2,20.9,84.0,71.7,50350608.0,mercancia,17/3/2019,nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque,2,34723.71,3480.79,6212.84,10703.28,38
+83.5,72.7,93.8,97.3,265405599.2,mensajeria,30/5/2018,platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat,2,33496.62,25010.22,7032.29,21943.59,111
+57.3,47.8,24.7,57.5,27155180.0,firma de documentos,16/8/2018,congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci,8,14217.91,24244.53,4497.22,32668.17,74
+47.8,38.3,96.8,5.3,7859772.8,radicacion de documentos,23/8/2018,sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti,8,38124.28,1855.07,5929.53,78124.28,55
+46.2,57.0,21.9,59.7,29809404.0,mensajeria,21/6/2018,ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas,3,17254.12,48610.53,3164.78,11172.93,115
+97.8,55.4,8.4,91.2,16976332.8,radicacion de documentos,29/7/2018,nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit,10,21181.81,44480.94,2543.38,76987.95,63
+79.8,48.7,49.4,84.3,81122901.6,mensajeria,21/9/2018,vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis,2,16479.67,4655.37,1392.14,23744.73,51
+41.3,25.0,58.1,42.9,24924900.0,firma de documentos,12/12/2018,neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus,2,16561.43,39224.62,5990.94,51403.91,21
+79.2,26.4,80.0,76.2,64373760.0,mensajeria,23/1/2019,amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis,2,49723.99,8417.94,5559.78,31863.32,37
+89.2,16.3,12.9,76.5,6434262.0,firma de documentos,16/7/2018,nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa,10,43981.86,1356.65,3166.34,84414.56,68
+13.0,32.5,47.3,80.8,49683920.0,radicacion de documentos,26/8/2018,lorem ipsum dolor sit amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien varius,10,18541.98,15793.78,7419.68,34061.91,86
+78.9,71.3,44.9,96.0,122932608.0,radicacion de documentos,22/9/2018,faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin,3,12315.76,24119.08,1368.18,39966.41,47
+29.3,39.7,74.3,10.6,12506770.4,radicacion de documentos,18/6/2018,nullam orci pede venenatis non sodales sed tincidunt eu felis fusce,1,29899.7,9427.25,8038.32,26581.59,99
+54.8,27.6,40.3,48.2,21444758.4,radicacion de documentos,29/11/2018,vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere,2,43268.58,41634.91,3085.3,68215.75,99
+42.4,39.9,49.1,31.4,24606170.4,mercancia,30/4/2019,leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui,10,1751.55,34897.3,4761.85,93466.67,63
+17.8,31.5,22.8,99.9,28699272.0,radicacion de documentos,24/11/2018,ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien,2,3934.64,42042.57,3763.04,89517.47,89
+99.1,58.0,47.8,49.3,54671728.0,radicacion de documentos,23/4/2019,nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus,2,39677.89,36328.42,3356.86,40965.04,97
+99.0,40.8,81.1,41.1,54397987.2,mensajeria,21/11/2018,condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui,8,42264.51,19044.07,2969.77,5958.43,99
+66.1,41.1,38.1,31.0,19417284.0,radicacion de documentos,2/2/2019,nibh ligula nec sem duis aliquam convallis nunc proin at turpis,4,26254.13,28059.11,4111.4,9937.51,29
+83.4,12.6,17.7,22.2,1980417.6,carga aerea,1/10/2018,purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam,4,32595.79,14090.19,5256.78,58938.27,45
+16.2,3.6,14.7,30.2,639273.6,carga aerea,15/7/2018,varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero,5,14744.36,43247.72,3283.09,41887.33,68
+68.1,46.6,58.2,42.2,45780585.6,mensajeria,22/10/2018,quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at,7,8926.84,45641.45,8459.45,95323.49,79
+12.1,9.5,32.1,91.7,11185566.0,radicacion de documentos,26/1/2019,primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan,1,30069.66,4505.88,7070.52,90982.71,85
+99.7,79.6,2.1,94.7,6332020.8,mercancia,13/3/2019,donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer,6,17416.25,9218.27,4047.83,92326.94,109
+95.3,29.5,35.6,46.4,19491712.0,carga aerea,2/4/2019,neque libero convallis eget eleifend luctus ultricies eu nibh quisque,7,18655.06,11779.77,9740.64,89831.02,52
+87.6,72.4,46.6,79.5,107288112.0,mensajeria,8/8/2018,luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec,5,9168.01,43698.81,6693.17,25457.57,96
+50.3,85.8,70.8,41.2,100110067.2,carga aerea,8/1/2019,leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum,6,34610.36,9186.26,7576.2,57153.3,100
+67.6,54.0,81.4,88.9,156307536.0,firma de documentos,28/11/2018,proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor,3,22888.3,47443.53,5066.96,6334.29,59
+76.7,10.8,6.2,58.4,1564185.6,carga aerea,25/1/2019,risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis,1,17309.2,32424.87,7545.58,24583.72,21
+51.8,72.8,63.0,33.1,60723936.0,radicacion de documentos,28/10/2018,id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis,1,8743.6,11541.25,8539.33,47251.31,98
+34.1,86.3,43.7,34.9,52647487.6,mercancia,26/2/2019,lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere,5,35618.29,34284.67,6927.92,96310.08,25
+90.7,72.0,45.4,36.5,47724480.0,radicacion de documentos,18/10/2018,vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris,7,44419.7,31173.15,1216.06,92597.75,104
+57.5,79.4,66.1,75.7,158919735.2,radicacion de documentos,15/8/2018,ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar,8,15305.9,21363.64,1775.64,40300.16,105
+68.4,87.6,29.3,36.6,37576195.2,mensajeria,29/9/2018,tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis,8,38354.15,6009.89,9229.34,62582.19,98
+32.3,44.5,43.6,14.1,10942728.0,mercancia,4/9/2018,morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo,7,37725.59,21355.32,3070.9,77360.84,30
+28.2,12.0,28.2,83.5,11302560.0,radicacion de documentos,1/8/2018,aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam,5,9465.98,43670.14,2903.71,80426.82,57
+33.1,39.6,46.0,74.2,54065088.0,firma de documentos,3/4/2019,volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus,5,27906.2,16869.92,7438.47,27783.17,67
+43.8,24.2,77.8,76.1,57311214.4,mensajeria,5/6/2018,est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum,6,25690.3,42548.31,6080.22,24206.38,114
+92.8,50.4,18.1,84.5,30833712.0,mensajeria,9/10/2018,volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam,2,32810.65,38477.15,2939.32,50317.16,89
+42.6,61.1,74.4,35.6,64732761.6,mensajeria,1/2/2019,ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum,2,4807.71,16004.66,7197.14,97707.6,95
+30.9,87.2,18.7,70.0,45657920.0,firma de documentos,27/5/2018,lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis,1,45695.19,21031.25,6180.72,32803.7,21
+77.1,11.8,79.9,12.6,4751812.8,mercancia,16/10/2018,condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales,9,15959.36,37103.15,7221.11,3771.5,83
+79.2,58.9,21.0,94.6,46804296.0,mensajeria,28/4/2019,at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia,4,34637.39,15975.06,6962.6,85073.72,112
+37.9,76.6,3.1,26.2,2488580.8,mercancia,20/6/2018,varius ut blandit non interdum in ante vestibulum ante ipsum primis in,1,4125.59,18708.2,7600.56,73630.63,22
+74.6,55.2,45.6,92.6,93234124.8,mensajeria,15/6/2018,nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate,3,30265.09,22747.58,2030.79,17517.74,92
+64.3,35.2,51.1,53.0,38132864.0,mercancia,25/10/2018,at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum,2,22124.48,42495.53,3248.23,36624.92,78
+23.6,69.3,88.4,71.0,173981808.0,radicacion de documentos,29/8/2018,faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin,4,34460.8,40862.12,3107.55,48513.76,29
+79.0,84.0,93.8,5.6,17649408.0,carga aerea,27/4/2019,dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi,6,15143.97,25711.72,9285.16,97244.2,24
+97.8,56.9,49.2,43.2,48375014.4,radicacion de documentos,17/9/2018,nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo,8,19849.32,16357.45,2579.49,15340.71,52
+54.6,81.2,56.3,5.1,9325982.4,mercancia,29/7/2018,ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at,9,27077.59,11178.36,3539.34,13089.02,63
+99.4,44.4,92.9,1.3,2144875.2,mercancia,22/11/2018,leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus,6,14483.75,7848.4,4834.62,7029.75,68
+55.2,26.1,53.3,82.5,45907290.0,carga aerea,21/5/2019,nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia,6,23065.55,4947.53,7767.04,82746.1,87
+35.6,75.1,49.2,45.3,66951950.4,carga aerea,6/3/2019,quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate,6,34262.15,3751.21,1749.11,49702.55,120
+47.7,7.1,22.8,85.8,5555721.6,carga aerea,28/2/2019,volutpat dui maecenas tristique est et tempus semper est quam,8,8608.95,5183.89,7609.09,7535.86,45
+50.2,21.3,91.7,87.5,68362350.0,carga aerea,15/10/2018,consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit,4,29538.37,39143.43,6652.03,58891.47,95
+85.4,7.1,53.4,13.6,2062521.6,carga aerea,11/5/2019,nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc,8,15750.92,48842.38,5293.15,27791.97,31
+93.6,39.1,94.5,57.1,84392658.0,mensajeria,6/2/2019,id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris,5,38995.04,23313.57,5710.14,62717.05,46
+6.9,16.3,48.6,67.6,21420547.2,carga aerea,6/6/2018,vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien,9,38106.43,10787.46,6477.27,19762.97,117
+69.4,13.0,35.2,72.9,13343616.0,radicacion de documentos,23/6/2018,non pretium quis lectus suspendisse potenti in eleifend quam a odio,5,27677.16,40065.69,5087.82,2337.31,101
+5.1,90.0,92.5,58.8,195804000.0,firma de documentos,1/8/2018,quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea,2,42544.56,3706.32,8343.72,4673.16,44
+76.9,49.3,99.8,82.0,161380592.0,mercancia,30/11/2018,tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed,5,2260.11,5658.08,2465.3,54576.69,100
+70.0,89.2,7.2,46.5,11945664.0,radicacion de documentos,30/4/2019,sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur,6,13692.78,9005.51,6637.56,31362.74,111
+26.2,14.2,41.3,65.5,15365252.0,mensajeria,24/2/2019,augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia,8,10789.32,1599.17,1827.12,9856.2,84
+88.9,10.4,1.9,46.5,367536.0,radicacion de documentos,7/4/2019,nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper,3,19605.33,3674.43,4775.12,4995.47,79
+84.9,72.2,68.5,91.2,180419136.0,firma de documentos,22/9/2018,augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo,10,35714.21,38261.25,4545.15,95265.39,96
+61.5,12.9,21.6,14.5,1616112.0,radicacion de documentos,2/4/2019,aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis,6,3455.58,25039.44,3677.93,41402.05,45
+54.1,15.5,71.3,2.5,1105150.0,radicacion de documentos,15/4/2019,metus sapien ut nunc vestibulum ante ipsum primis in faucibus,5,8679.04,33355.79,4023.69,90758.66,34
+16.9,68.2,13.9,88.1,33406815.2,radicacion de documentos,26/4/2019,nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie,2,42731.05,28690.41,9620.5,74588.91,35
+86.9,28.9,27.3,31.1,9814786.8,radicacion de documentos,26/8/2018,vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula,7,23210.63,3306.33,9405.69,65901.24,73
+21.9,83.9,97.9,59.9,196802887.6,firma de documentos,17/9/2018,nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet,1,19753.45,44334.05,9800.42,77318.89,59
+68.4,4.4,7.4,68.7,894748.8,carga aerea,6/11/2018,cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien,9,6175.74,23632.04,1562.62,84724.22,46
+71.4,76.3,35.2,35.6,38245222.4,mensajeria,27/9/2018,at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut,10,19681.48,14571.48,1165.38,77861.21,120
+67.9,42.6,85.1,39.3,56989087.2,carga aerea,15/8/2018,sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper,5,1179.22,42195.49,2511.32,56076.36,45
+84.1,56.0,31.2,40.2,28094976.0,mercancia,5/1/2019,nulla ac enim in tempor turpis nec euismod scelerisque quam turpis,4,40764.16,19929.83,7440.5,78935.82,81
+14.7,80.4,83.5,8.5,22825560.0,firma de documentos,14/11/2018,magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque,10,25567.61,25373.51,1751.08,35641.53,43
+12.7,13.7,56.6,7.0,2171176.0,radicacion de documentos,16/11/2018,sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi,7,12689.37,19093.64,8008.08,15091.86,87
+57.0,93.2,98.8,22.4,82505113.6,firma de documentos,4/6/2018,volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in,9,40208.91,41259.02,7265.79,8356.25,67
+84.2,48.5,22.4,13.2,5736192.0,mercancia,2/10/2018,dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia,6,39700.02,17813.03,8184.46,6635.24,85
+26.8,17.2,15.6,42.8,4593638.4,mensajeria,30/12/2018,congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec,6,48808.21,30318.99,3768.21,71412.01,31
+79.9,28.9,5.6,5.5,356048.0,carga aerea,11/3/2019,amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu,9,46456.85,35265.82,8155.46,83843.81,48
+54.4,61.0,11.2,94.1,25715648.0,carga aerea,12/1/2019,donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis,9,45864.5,32869.84,1675.5,97462.66,111
+53.6,15.5,27.4,82.3,13981124.0,mensajeria,10/11/2018,consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in,7,7956.18,3288.8,1210.22,2049.26,99
+67.2,38.2,22.8,49.0,17070816.0,carga aerea,11/7/2018,et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet,2,27774.77,14103.53,5757.01,31036.42,53
+17.3,84.7,95.4,36.9,119266408.8,mercancia,12/8/2018,praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis,9,44809.28,25781.19,6989.87,87688.69,44
+5.8,43.7,10.6,64.9,12025191.2,mercancia,22/1/2019,vestibulum sit amet cursus id turpis integer aliquet massa id,8,33632.58,39056.78,5477.23,55315.85,41
+44.1,48.6,85.3,1.5,2487348.0,mensajeria,29/5/2018,mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum,4,21283.05,19100.04,2173.18,83702.89,40
+90.9,13.0,89.9,68.8,32162624.0,carga aerea,22/10/2018,mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis,3,19529.57,10880.9,8058.2,86192.7,52
+83.2,80.3,35.2,93.9,106165593.6,firma de documentos,1/12/2018,nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis,10,4770.82,38820.15,7791.12,5822.86,59
+61.2,82.6,39.8,30.6,40238755.2,mercancia,18/1/2019,eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et,2,20722.64,36659.57,4525.24,74856.85,90
+90.7,21.2,28.4,38.7,9320198.4,firma de documentos,26/8/2018,nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh,4,16019.99,6997.39,4811.68,81346.59,79
+90.9,19.1,39.2,95.8,28690950.4,mercancia,27/12/2018,elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum,8,20299.9,40798.36,2288.83,56008.71,52
+79.6,12.7,63.1,56.3,18046852.4,mensajeria,10/12/2018,magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt,4,22762.1,45141.45,4803.07,35359.89,114
+49.6,75.6,60.2,50.0,91022400.0,mensajeria,24/7/2018,proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio,10,43235.73,44696.23,6667.17,90726.57,31
+41.5,11.8,30.6,87.4,12623356.8,mercancia,9/5/2019,in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices,2,2360.7,13539.95,7925.8,50060.24,68
+8.1,45.4,20.0,79.2,28765440.0,radicacion de documentos,23/3/2019,at feugiat non pretium quis lectus suspendisse potenti in eleifend,1,34023.74,34748.3,6124.69,17860.45,103
+54.7,24.1,47.6,58.8,26981203.2,mercancia,9/4/2019,blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare,5,5901.46,12138.25,6774.15,8337.79,118
+38.2,28.8,42.8,55.7,27463219.2,firma de documentos,5/2/2019,feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien,2,10609.38,22051.26,9340.37,77182.36,107
+81.9,7.3,48.5,33.1,4687622.0,radicacion de documentos,29/8/2018,massa volutpat convallis morbi odio odio elementum eu interdum eu,4,46695.04,23574.43,6587.23,35598.96,34
+79.9,42.4,40.1,59.8,40669740.8,radicacion de documentos,23/12/2018,et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut,9,37390.99,48198.07,7346.98,11282.95,35
+55.6,7.6,70.2,40.4,8621683.2,radicacion de documentos,14/6/2018,eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui,2,15010.03,38531.43,3923.15,34269.64,29
+88.0,68.9,68.5,91.9,173494334.0,carga aerea,29/6/2018,dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi,9,26536.81,4880.88,6897.79,40799.4,24
+1.2,58.2,82.1,40.6,77598292.8,radicacion de documentos,27/8/2018,ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien,4,14561.13,18178.38,2059.06,38423.16,113
+10.1,18.5,73.0,36.8,19879360.0,carga aerea,13/3/2019,scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus,4,23232.46,20495.86,8939.39,45597.61,36
+72.5,50.9,2.4,24.6,1202054.4,carga aerea,15/10/2018,in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan,3,33280.4,2335.2,5076.82,2529.39,25
+88.5,24.9,41.6,23.6,9778329.6,mensajeria,4/4/2019,nunc purus phasellus in felis donec semper sapien a libero nam dui proin,1,37367.27,20416.77,3669.41,73081.07,44
+17.4,10.7,32.4,32.7,4534574.4,mensajeria,1/2/2019,dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac,2,31570.16,26106.29,7052.8,97176.09,68
+98.3,3.2,85.6,70.9,7768371.2,firma de documentos,17/12/2018,et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam,4,39743.27,23031.46,4673.4,41982.02,33
+59.9,71.4,84.5,42.7,103048764.0,mensajeria,12/9/2018,eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis,8,35843.37,2658.44,3276.87,66161.7,52
+47.8,15.9,72.2,49.1,22546327.2,radicacion de documentos,22/3/2019,volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut,6,6998.83,42030.23,6282.97,78875.97,37
+8.2,66.2,63.6,30.6,51534316.8,firma de documentos,5/2/2019,mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim,10,41937.67,28279.46,4900.62,43298.56,86
+41.5,23.3,9.0,38.6,3237768.0,firma de documentos,26/6/2018,risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam,9,4360.54,5692.73,5203.96,35425.21,89
+95.7,96.6,13.4,46.0,23817696.0,mensajeria,23/2/2019,aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan,5,37951.28,4052.49,8007.62,72891.21,87
+9.0,80.2,57.2,6.1,11193353.6,radicacion de documentos,25/8/2018,faucibus orci luctus et ultrices posuere cubilia curae donec pharetra,9,22085.27,42775.3,2959.0,5439.48,115
+40.5,17.9,19.3,61.8,8540018.4,mensajeria,2/9/2018,integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices,4,16263.38,41312.59,3435.35,66752.05,34
+15.0,65.6,29.6,1.6,1242726.4,firma de documentos,1/10/2018,potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus,10,11498.14,31694.77,3190.53,35800.73,52
+76.5,9.6,2.1,20.5,165312.0,mercancia,27/10/2018,vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris,3,34421.58,48664.05,7611.68,75824.78,119
+71.1,53.7,35.5,7.5,5719050.0,firma de documentos,6/3/2019,turpis elementum ligula vehicula consequat morbi a ipsum integer a,5,35922.41,38029.29,2452.57,17074.84,87
+71.1,56.1,94.1,44.3,93544057.2,radicacion de documentos,9/7/2018,nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit,9,26078.55,17668.56,7138.03,98420.04,25
+72.6,73.8,89.4,27.9,73630555.2,mercancia,5/8/2018,tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla,9,33481.33,31940.06,4381.09,49045.04,50
+60.4,68.8,76.3,94.8,199058764.8,firma de documentos,26/7/2018,felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu,9,16643.75,14501.83,8953.19,68274.35,62
+19.1,52.2,4.2,33.8,2964124.8,radicacion de documentos,13/10/2018,consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede,6,39224.36,1955.6,2279.4,67024.81,118
+43.5,29.9,11.7,39.3,5499327.6,mercancia,5/7/2018,dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst,2,37287.29,5999.71,7880.94,44183.29,31
+24.1,58.7,14.9,84.8,29667449.6,carga aerea,23/3/2019,vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum,6,24384.79,7553.44,8804.23,96705.45,43
+9.1,48.0,56.2,72.8,78554112.0,firma de documentos,11/1/2019,ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel,8,9180.1,23271.38,9161.14,67361.8,69
+93.2,44.9,55.6,46.2,46134211.2,carga aerea,15/3/2019,id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo,3,29037.82,7760.21,3444.73,62100.41,111
+71.1,51.3,31.4,96.4,62113219.2,carga aerea,26/11/2018,praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio,2,9444.17,1910.37,5718.15,83550.81,108
+79.5,35.2,91.4,51.0,65632512.0,mensajeria,10/4/2019,rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet,8,39047.79,35247.39,3313.46,65958.83,69
+80.4,66.3,85.4,98.1,222177664.8,carga aerea,9/2/2019,eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo,4,2238.28,6679.54,4353.94,61722.33,43
+11.1,42.8,55.9,96.4,92255571.2,mensajeria,17/12/2018,nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam,5,34780.0,1292.07,1912.29,31385.94,103
+25.1,59.0,24.9,93.6,55003104.0,mensajeria,13/1/2019,orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit,8,5543.15,20813.13,1121.89,94983.83,53
+74.8,47.1,68.4,70.0,90205920.0,radicacion de documentos,26/5/2019,dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et,5,8866.13,32723.56,2660.26,83645.88,104
+17.6,5.7,68.3,62.3,9701605.2,carga aerea,14/5/2019,maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum,9,37579.33,11776.77,2363.95,14337.65,77
+33.6,18.1,55.2,75.6,30213388.8,mensajeria,17/9/2018,diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue,6,30576.01,37862.36,8199.42,59361.78,120
+70.0,58.7,8.0,72.3,13580832.0,mensajeria,9/3/2019,blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue,1,32413.88,15905.59,3049.12,69780.02,32
+55.3,63.4,99.5,15.6,39363792.0,mensajeria,1/5/2019,volutpat dui maecenas tristique est et tempus semper est quam pharetra,6,31917.86,22731.28,8744.63,3111.81,86
+46.3,31.9,87.0,45.4,50399448.0,radicacion de documentos,23/9/2018,aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus,7,45884.11,46362.19,4419.09,9365.59,103
+51.6,82.3,15.4,12.3,6235706.4,mensajeria,28/3/2019,ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti,1,29808.42,8853.39,2911.45,80759.94,109
+29.2,1.6,21.6,47.5,656640.0,radicacion de documentos,7/6/2018,posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis,3,9975.39,20340.22,2221.05,56595.25,84
+49.3,56.8,9.2,95.9,20045401.6,radicacion de documentos,21/1/2019,praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi,9,33333.54,6109.85,8739.07,51182.35,33
+97.6,94.7,96.2,77.6,282778745.6,carga aerea,10/5/2019,rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel,6,23154.71,35195.84,7265.67,36509.26,50
+24.7,12.6,96.5,83.9,40805604.0,carga aerea,14/8/2018,mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse,8,19169.96,40127.01,7438.4,26057.4,22
+3.6,35.5,24.9,88.3,31221114.0,radicacion de documentos,29/3/2019,pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti,7,1958.18,37670.48,7211.49,44487.18,106
+31.7,68.2,10.9,55.8,16592241.6,mensajeria,27/11/2018,a ipsum integer a nibh in quis justo maecenas rhoncus aliquam,4,26435.47,5869.3,6592.81,12622.23,43
+77.2,85.6,93.8,39.1,125577939.2,firma de documentos,11/2/2019,morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac,6,26134.53,4047.24,5582.56,64685.63,80
+57.4,93.4,67.0,48.0,120149760.0,carga aerea,26/10/2018,luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit,6,7726.97,17498.1,4855.78,80601.06,90
+22.5,56.8,69.3,93.3,146900476.8,carga aerea,26/11/2018,vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae,5,37328.93,36455.23,1111.09,50022.17,88
+19.6,91.7,62.3,65.3,149221209.2,radicacion de documentos,17/5/2019,ut mauris eget massa tempor convallis nulla neque libero convallis,5,15357.64,21710.41,5558.3,44477.92,53
+15.8,80.9,91.8,25.5,75751524.0,mensajeria,29/3/2019,lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at,8,46345.62,37217.27,3840.99,14115.04,42
+97.9,57.5,28.8,50.3,33318720.0,mercancia,28/12/2018,dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac,9,34963.62,38595.28,4674.8,90345.63,31
+72.7,77.7,59.7,42.7,79228825.2,mensajeria,20/12/2018,libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu,4,24607.74,41330.61,5193.47,92996.05,111
+39.5,11.1,75.9,30.7,10345777.2,mercancia,7/1/2019,posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum,2,8928.44,19610.57,1657.51,90186.1,30
+39.0,90.6,50.1,89.7,162861472.8,mensajeria,12/5/2019,quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi,10,49590.92,20938.41,7443.15,51935.94,87
+76.5,86.3,42.7,12.9,19014651.6,mensajeria,20/1/2019,sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat,6,47939.09,27096.41,9070.63,38927.91,95
+20.7,64.4,58.4,98.8,148633139.2,firma de documentos,29/1/2019,iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci,3,14115.83,35048.71,7961.99,95121.03,45
+52.3,59.7,36.7,59.5,52145562.0,firma de documentos,15/7/2018,justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique,9,28872.93,45772.95,8463.25,47874.24,26
+80.0,10.0,90.9,1.1,399960.0,carga aerea,3/12/2018,fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien,10,5830.55,47288.73,7505.29,84093.22,107
+97.0,11.9,48.3,12.3,2827868.4,radicacion de documentos,7/9/2018,nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit,2,38841.93,5341.53,6681.74,28347.55,66
+10.6,61.6,2.1,4.6,238022.4,radicacion de documentos,9/8/2018,quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer,1,2930.71,39905.41,6378.08,82213.73,88
+96.8,68.6,67.3,54.2,100091790.4,mensajeria,26/10/2018,aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et,2,32448.96,30842.43,8133.16,70237.37,73
+49.0,88.2,54.1,83.4,159181243.2,carga aerea,28/7/2018,nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat,8,36426.02,30338.83,5043.99,66392.86,90
+23.7,36.6,24.1,8.6,3034286.4,carga aerea,24/5/2019,potenti cras in purus eu magna vulputate luctus cum sociis,5,4181.63,21882.2,9699.83,75154.58,52
+85.3,79.0,5.4,59.7,10187208.0,carga aerea,2/5/2019,vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis,5,36642.03,12771.83,1253.81,85019.95,110
+15.0,23.9,65.0,67.2,41758080.0,firma de documentos,22/2/2019,vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi,7,48056.7,9836.55,1247.03,9359.92,118
+18.5,9.9,45.3,62.1,11139994.8,radicacion de documentos,8/11/2018,eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra,7,30262.1,11174.15,9141.46,30877.91,98
+93.7,61.1,12.6,37.9,11671077.6,mercancia,4/7/2018,tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed,1,46545.48,2199.49,2392.34,70050.83,81
+13.3,19.3,35.7,7.7,2122150.8,firma de documentos,16/7/2018,morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis,3,6492.24,25540.87,7401.54,78749.21,50
+44.9,77.4,54.5,23.4,39483288.0,mercancia,19/2/2019,elementum ligula vehicula consequat morbi a ipsum integer a nibh in,10,46618.78,38875.52,1557.81,68260.56,37
+41.7,23.1,56.0,21.6,11176704.0,mensajeria,20/3/2019,quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus,1,14858.08,16910.54,5032.41,90772.85,56
+70.7,84.2,22.6,9.7,7383329.6,mensajeria,4/7/2018,at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque,8,29388.05,32966.48,8580.53,94506.27,33
+1.5,7.6,15.5,93.6,4410432.0,mensajeria,31/3/2019,nulla suspendisse potenti cras in purus eu magna vulputate luctus,5,20632.37,45431.37,7314.66,81535.44,22
+3.6,6.8,57.7,57.1,8961502.4,mercancia,1/5/2019,sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel,7,14915.74,26892.62,1638.32,25114.83,27
+32.9,44.9,60.7,23.0,25073956.0,radicacion de documentos,4/1/2019,ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean,5,13806.53,11431.19,9653.49,37694.26,78
+20.3,59.9,53.2,44.8,57105305.6,mercancia,25/10/2018,luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus,3,39545.89,6091.26,3673.65,6050.65,30
+51.4,82.0,72.7,8.4,20030304.0,mensajeria,23/6/2018,vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci,8,1947.35,21172.07,7952.42,97941.23,59
+62.2,69.1,13.7,1.9,719469.2,mensajeria,4/4/2019,nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est,6,46168.41,23354.52,8843.8,26424.26,41
+40.7,90.8,56.3,98.9,202232302.4,mercancia,23/8/2018,ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque,7,21850.86,24374.18,6138.59,74378.88,119
+18.3,92.4,41.9,22.8,35308627.2,mercancia,18/10/2018,enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum,2,19480.47,44202.4,9859.75,35390.76,106
+44.2,51.1,7.3,96.2,14354194.4,mercancia,10/2/2019,vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula,4,27748.93,47163.83,7723.3,78400.88,112
+21.5,82.0,57.5,76.8,144844800.0,radicacion de documentos,24/9/2018,morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt,10,48166.63,43509.79,5752.58,34141.27,111
+77.6,16.9,5.3,92.7,3321255.6,carga aerea,29/1/2019,pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing,3,17341.07,8747.08,4007.35,46117.84,113
+43.2,70.5,92.5,82.1,214157850.0,mensajeria,15/4/2019,nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac,7,18832.27,33660.11,3033.25,81138.16,64
+43.1,86.3,81.4,43.1,121107896.8,firma de documentos,3/8/2018,nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor,7,27945.49,38836.27,8174.12,50123.48,73
+79.0,54.3,36.6,72.2,57395534.4,firma de documentos,24/8/2018,quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis,10,25459.1,38790.4,5857.04,21023.12,80
+49.8,92.6,6.0,75.4,16756896.0,radicacion de documentos,29/10/2018,faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus,3,6786.78,45659.61,4162.6,33480.01,50
+95.6,30.9,58.2,56.8,40859193.6,radicacion de documentos,6/8/2018,convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar,7,40910.38,3167.28,2977.93,27032.51,30
+2.8,48.8,24.0,71.9,33683712.0,carga aerea,7/2/2019,ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero,7,16402.94,22649.51,2808.11,92424.97,69
+52.6,53.6,74.1,12.6,20017670.4,radicacion de documentos,31/1/2019,in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum,5,19911.45,8688.27,7602.62,15201.38,103
+37.5,6.6,97.2,82.8,21247142.4,firma de documentos,24/10/2018,lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula,9,16095.24,47254.04,4445.45,15478.09,54
+19.1,52.6,22.5,47.0,22249800.0,carga aerea,26/3/2019,tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac,1,21916.51,39572.19,9643.11,90517.62,26
+47.2,40.3,80.9,81.4,106154391.2,firma de documentos,11/9/2018,ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien,4,30046.25,2499.69,6173.46,4915.38,99
+41.9,33.7,58.7,31.3,24766938.8,radicacion de documentos,27/9/2018,nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis,5,23325.66,20761.03,2235.71,98174.33,71
+86.0,30.1,58.9,16.2,11488327.2,carga aerea,26/10/2018,posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar,1,49632.89,27042.72,4138.73,17045.82,73
+41.4,55.7,78.5,46.8,81852264.0,firma de documentos,22/5/2019,egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus,1,39192.41,28411.11,2759.01,56230.49,89
+70.9,43.9,36.9,4.9,3175023.6,mercancia,26/6/2018,arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget,1,5906.08,38532.11,1405.08,24335.66,92
+20.5,12.2,75.3,62.6,23003246.4,firma de documentos,10/3/2019,eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna,9,8223.83,41837.58,5037.17,28623.92,108
+15.2,29.6,36.5,31.5,13613040.0,carga aerea,28/5/2018,odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis,2,31555.74,26011.24,5601.68,38106.07,51
+87.7,71.8,52.9,45.0,68367960.0,mercancia,8/6/2018,diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis,4,23785.75,1511.45,2608.62,86043.92,72
+19.2,46.1,93.3,27.8,47828565.6,mercancia,25/7/2018,fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed,1,16658.07,16779.33,4801.12,91717.4,85
+97.7,93.9,79.1,20.7,61499617.2,mensajeria,30/8/2018,porttitor id consequat in consequat ut nulla sed accumsan felis ut at,4,49272.67,36691.67,3101.95,28145.18,32
+46.9,22.6,20.9,47.7,9012247.2,radicacion de documentos,9/12/2018,at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet,6,49302.13,8570.93,4224.71,84070.03,51
+96.5,38.8,32.6,71.1,35973187.2,radicacion de documentos,13/8/2018,vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede,4,40617.28,29995.34,4951.75,16193.69,56
+32.1,68.0,97.4,51.2,135643136.0,carga aerea,16/3/2019,vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede,1,41292.92,22840.71,1082.5,57774.21,62
+62.9,95.9,2.6,36.2,3610443.2,mensajeria,31/10/2018,eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia,4,47350.92,22601.54,1931.49,97020.88,68
+60.7,86.3,28.2,81.3,79142623.2,radicacion de documentos,11/2/2019,euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam,4,10908.81,9234.22,3217.9,38735.92,81
+38.7,48.0,19.0,78.9,28782720.0,mensajeria,31/8/2018,sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu,9,20969.61,44521.76,8773.68,81894.07,92
+8.5,23.9,50.1,3.3,1580554.8,carga aerea,21/1/2019,adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec,6,12110.37,2672.55,3481.51,53417.18,103
+58.7,53.6,30.8,31.6,20867123.2,mercancia,23/9/2018,velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat,4,25960.88,42731.34,4401.19,70361.31,71
+69.4,34.1,76.1,23.0,23874092.0,mensajeria,5/6/2018,consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices,8,23677.74,13871.65,8916.46,69562.96,26
+99.1,93.2,40.2,20.4,30572582.4,mensajeria,6/6/2018,mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus,6,25463.6,19966.36,3268.06,95268.77,26
+66.2,18.0,22.8,9.4,1543104.0,mercancia,27/5/2018,nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus,4,46263.25,26127.09,6278.42,26706.85,95
+6.1,72.9,94.1,49.0,134453844.0,mensajeria,22/9/2018,eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec,1,43111.23,31888.66,2316.43,49815.1,74
+8.2,55.6,11.6,51.8,13363571.2,firma de documentos,4/10/2018,in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus,6,14474.45,27781.67,6829.31,26411.94,81
+57.3,55.4,83.9,63.4,117874801.6,mercancia,30/9/2018,dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede,1,7319.95,11950.68,6490.02,69406.45,99
+56.6,10.1,79.5,77.0,24730860.0,carga aerea,24/8/2018,nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac,3,5667.83,4288.94,5234.87,91370.24,98
+88.2,99.0,12.1,45.9,21993444.0,mercancia,15/7/2018,in hac habitasse platea dictumst maecenas ut massa quis augue luctus,10,14036.48,27691.08,2602.55,32211.51,72
+53.7,78.8,76.0,76.0,182059520.0,firma de documentos,30/11/2018,interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at,4,24592.2,18839.25,6395.57,39601.44,110
+54.6,35.3,63.0,2.1,1868076.0,firma de documentos,26/4/2019,imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris,4,14794.2,49178.91,3702.76,13151.99,101
+15.2,43.0,93.3,82.1,131750796.0,radicacion de documentos,28/1/2019,ut at dolor quis odio consequat varius integer ac leo,3,28171.01,22849.46,6968.08,97456.54,97
+5.2,47.8,76.9,14.6,21466788.8,mercancia,11/10/2018,diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed,1,4768.89,1694.62,7189.6,42757.07,80
+51.1,35.7,73.5,39.4,41353452.0,mensajeria,23/3/2019,vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus,1,2606.33,36991.91,2283.93,62459.89,43
+48.2,66.0,50.0,70.3,92796000.0,carga aerea,30/10/2018,sit amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum,8,25195.91,35262.24,7221.66,72506.35,74
+12.3,12.9,43.8,51.3,11594210.4,radicacion de documentos,11/6/2018,aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in,1,18987.0,21678.45,2131.99,12476.08,90
+27.8,89.6,95.5,26.8,91728896.0,radicacion de documentos,9/9/2018,luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce,7,3888.23,36572.77,8982.84,12864.01,82
+27.0,75.0,91.5,85.2,233874000.0,carga aerea,31/10/2018,orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti,10,16189.01,25331.35,4091.1,48499.97,103
+94.7,18.5,40.4,12.8,3826688.0,mensajeria,18/10/2018,sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus,2,4558.87,17413.89,3435.07,85047.6,91
+20.4,77.7,58.6,10.5,19123524.0,mensajeria,26/2/2019,lacus at velit vivamus vel nulla eget eros elementum pellentesque,7,6333.84,41010.81,6547.54,19003.35,40
+6.7,80.1,31.3,46.8,46933473.6,mensajeria,10/3/2019,eu felis fusce posuere felis sed lacus morbi sem mauris,5,42635.11,3030.5,2346.8,83762.87,68
+9.9,5.7,36.3,15.3,1266289.2,radicacion de documentos,25/2/2019,condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar,2,21118.39,16686.19,4167.67,16591.2,89
+83.8,85.6,34.5,42.7,50440656.0,firma de documentos,13/8/2018,pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae,1,46104.63,48259.34,5559.23,74098.66,96
+55.3,88.5,61.5,92.1,200510910.0,radicacion de documentos,13/8/2018,at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget,7,42343.95,23246.85,9199.09,16908.65,90
+17.4,7.8,27.0,97.1,8179704.0,firma de documentos,14/6/2018,et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit,5,45905.56,8893.12,5629.37,47242.91,63
+36.1,3.2,20.7,99.3,2631052.8,mensajeria,12/12/2018,massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea,10,6893.07,25744.69,2387.06,21739.33,21
+92.5,30.0,99.6,26.8,32031360.0,firma de documentos,26/9/2018,lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci,10,39375.49,10451.77,1127.08,23645.42,36
+41.1,13.5,51.9,84.9,23794074.0,carga aerea,15/3/2019,ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec,1,38785.16,39578.15,8043.95,37687.2,33
+71.5,9.1,26.2,73.4,7000011.2,mensajeria,25/4/2019,hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum,4,30202.29,27174.12,6002.74,26129.05,26
+67.6,56.9,31.3,16.6,11825640.8,radicacion de documentos,11/2/2019,eros viverra eget congue eget semper rutrum nulla nunc purus phasellus,6,8492.85,4635.06,1725.53,62472.14,54
+46.4,79.0,99.1,68.7,215138172.0,firma de documentos,19/10/2018,pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis,7,6525.6,21511.51,6101.58,99485.61,52
+17.5,85.5,24.7,38.5,32522490.0,mercancia,7/10/2018,eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at,3,22495.05,25018.87,8030.44,83406.72,71
+3.5,35.8,48.6,6.5,4523688.0,firma de documentos,16/9/2018,vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend,1,24872.03,25911.91,7285.29,53881.12,115
+96.6,79.6,82.0,93.4,243856192.0,mercancia,16/8/2018,habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum,7,33846.49,33896.22,1044.02,97194.55,105
+48.4,30.5,64.0,34.7,27093760.0,radicacion de documentos,12/1/2019,sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis,6,41426.84,14226.67,5366.04,26576.8,94
+49.4,16.0,52.5,87.2,29299200.0,carga aerea,7/6/2018,sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla,8,43356.89,33424.0,2125.59,60125.37,62
+32.2,11.1,36.8,40.5,6617376.0,firma de documentos,16/5/2019,mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum,9,47708.36,1927.92,5068.35,71980.96,120
+67.4,82.1,18.0,62.0,36649440.0,radicacion de documentos,26/4/2019,at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet,8,41891.41,25712.14,3955.65,98706.19,115
+70.5,12.6,21.5,5.5,595980.0,radicacion de documentos,12/1/2019,lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus,7,30338.66,6258.33,8966.95,27149.34,61
+19.8,48.6,85.0,70.1,115833240.0,mensajeria,23/4/2019,diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices,10,36324.21,9986.21,4043.81,18320.1,54
+7.2,40.1,76.7,69.0,84888492.0,mercancia,22/9/2018,ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus,1,39183.42,29725.15,3763.24,94657.05,83
+72.9,73.6,82.2,17.9,43317427.2,mensajeria,1/4/2019,orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum,2,43517.37,3379.69,5653.5,98145.62,109
+67.3,46.0,7.9,34.8,5058528.0,mercancia,30/7/2018,consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc,1,41758.79,40611.28,7660.36,55083.16,76
+56.4,80.7,6.1,73.2,14413665.6,radicacion de documentos,6/2/2019,erat fermentum justo nec condimentum neque sapien placerat ante nulla justo,8,18022.1,22463.7,3742.5,37757.29,21
+84.1,90.7,20.7,75.4,56625098.4,mensajeria,23/8/2018,purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend,2,39832.69,21719.46,2984.05,51443.07,28
+60.3,35.1,69.4,34.8,33908284.8,carga aerea,25/9/2018,donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet,5,47281.54,26638.61,2332.65,54589.41,35
+2.4,51.4,95.1,35.2,68825011.2,firma de documentos,23/7/2018,nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum,10,13899.84,42003.98,7559.91,80608.44,100
+38.7,86.1,76.2,49.0,128592072.0,carga aerea,26/9/2018,magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem,4,31030.62,48465.13,1396.9,84926.86,80
+84.7,29.1,83.0,71.9,69464028.0,mensajeria,1/11/2018,duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis,10,34044.86,20825.17,7390.15,2378.56,60
+34.5,55.4,30.4,62.7,42238732.8,radicacion de documentos,12/7/2018,orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse,8,8910.52,21989.05,4085.47,11015.33,27
+43.6,28.3,55.5,86.1,54093186.0,mensajeria,18/3/2019,fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien,5,14835.63,28501.57,3359.01,43688.61,76
+36.4,68.7,55.9,29.3,45008667.6,mensajeria,30/12/2018,felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec,9,2019.36,16495.48,3118.16,54534.57,34
+92.6,65.5,36.6,62.5,59932500.0,carga aerea,1/5/2019,duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer,7,10233.59,34784.34,5661.19,89309.0,83
+50.5,42.7,75.0,84.6,108372600.0,mensajeria,4/12/2018,metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget,2,14654.85,16954.87,1079.48,48240.67,42
+75.7,8.1,53.2,81.4,14030755.2,mensajeria,6/11/2018,mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus,9,21213.16,1993.12,2800.56,12826.75,38
+88.9,86.9,42.2,21.4,31391060.8,mercancia,12/2/2019,metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet,4,10025.19,23651.36,9842.58,12846.06,86
+46.2,80.0,28.9,45.4,41985920.0,carga aerea,2/11/2018,sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl,5,47479.19,16236.83,8677.09,72128.8,77
+13.9,15.3,45.0,1.7,468180.0,mensajeria,13/12/2018,curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac,4,15262.95,9091.99,6032.12,21768.44,36
+4.0,64.7,57.9,84.5,126619194.0,mercancia,17/3/2019,nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere,6,27008.96,17509.82,9618.41,28264.91,81
+39.6,13.4,35.1,35.7,6716455.2,mensajeria,18/6/2018,congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam,10,4327.46,2348.81,9216.67,91159.81,71
+45.7,43.6,26.0,89.9,40764256.0,firma de documentos,30/7/2018,eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum,8,40484.09,30790.54,7935.01,86917.56,98
+79.1,47.1,31.5,13.2,7833672.0,carga aerea,11/9/2018,sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec,10,48625.92,31292.63,9566.46,34045.16,83
+74.4,9.3,29.3,90.4,9853238.4,firma de documentos,4/7/2018,eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum,10,6615.22,33832.61,1931.2,90050.76,25
+48.0,68.4,66.1,34.9,63116510.4,mercancia,18/4/2019,curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt,7,29123.64,48415.49,3262.96,66676.36,42
+45.1,66.6,42.4,83.8,94655116.8,mensajeria,4/10/2018,suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce,1,35795.65,4086.32,6394.63,86464.76,97
+67.9,5.4,74.4,51.1,8211974.4,mercancia,23/3/2019,cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec,8,37496.78,6319.99,3749.89,85149.04,70
+9.5,51.4,46.6,64.3,61605572.8,firma de documentos,25/3/2019,mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam tristique tortor,9,7123.07,39819.01,2647.19,50931.04,75
+60.8,27.8,72.4,91.1,73343516.8,mercancia,26/6/2018,vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae,2,41431.12,35530.97,2864.39,96080.67,88
+85.0,81.0,69.6,4.4,9922176.0,mercancia,23/11/2018,nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at,6,46019.27,47802.27,9403.1,23504.34,59
+40.1,64.5,90.1,22.0,51140760.0,carga aerea,26/3/2019,semper est quam pharetra magna ac consequat metus sapien ut,10,20419.56,19447.1,3540.77,28705.57,72
+85.7,80.9,5.9,58.7,11207238.8,mensajeria,16/12/2018,tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy,10,17982.29,4416.69,4002.17,24498.65,26
+72.9,57.0,44.6,10.3,10473864.0,carga aerea,6/8/2018,vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere,6,9508.86,23229.01,5620.29,5068.78,50
+8.0,32.7,78.1,36.1,36877882.8,radicacion de documentos,2/4/2019,mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper,9,42081.22,32182.88,6428.1,86525.71,60
+22.6,45.5,76.1,75.0,103876500.0,carga aerea,11/12/2018,enim sit amet nunc viverra dapibus nulla suscipit ligula in,10,31256.79,4566.82,4765.8,58149.39,51
+64.7,2.2,85.2,44.6,3343929.6,mensajeria,22/6/2018,tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac,2,4803.15,40537.53,1669.88,52318.68,40
+75.6,71.9,89.8,31.9,82386471.2,firma de documentos,17/9/2018,consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo,5,18704.02,11965.18,6119.51,33578.63,85
+98.7,46.1,26.8,5.4,2668636.8,mensajeria,4/5/2019,dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum,2,11874.41,33560.78,4381.38,33812.11,25
+32.4,77.8,83.9,52.1,136031432.8,mercancia,7/2/2019,congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam,3,32607.74,26292.51,7467.02,5395.94,39
+23.0,29.6,95.1,70.8,79719667.2,firma de documentos,23/4/2019,vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien,3,2960.7,5111.86,1655.54,76679.29,54
+76.0,5.1,7.4,93.2,1406947.2,carga aerea,20/7/2018,donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi,7,17087.23,22321.0,6682.96,96037.18,31
+26.2,89.5,76.1,17.3,47131774.0,mensajeria,9/2/2019,nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo,8,19956.4,16915.08,7357.22,36441.97,86
+8.5,55.8,95.9,94.3,201848018.4,mercancia,19/7/2018,ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper,2,18400.19,19435.0,7163.27,87000.56,79
+24.0,64.8,49.7,48.7,62736508.8,carga aerea,28/5/2018,sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut,10,37890.7,19394.58,6033.29,44447.53,115
+85.8,67.9,58.7,42.1,67119693.2,mensajeria,4/9/2018,erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis,5,20351.37,34858.7,5067.01,68829.66,32
+51.5,16.2,52.0,78.0,26282880.0,firma de documentos,19/4/2019,eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in,2,11363.85,36658.85,1361.9,35833.11,75
+28.9,29.5,9.0,33.2,3525840.0,radicacion de documentos,17/10/2018,ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti,8,22830.54,21826.96,8108.39,60123.71,117
+28.6,59.4,98.5,14.6,34169256.0,mensajeria,16/3/2019,ut mauris eget massa tempor convallis nulla neque libero convallis eget,9,38187.26,8214.52,6628.25,27490.45,46
+73.1,74.8,67.4,99.2,200047513.6,carga aerea,14/6/2018,magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede,5,45756.66,37522.92,7521.61,15927.35,82
+67.3,85.1,76.4,99.6,259025337.6,firma de documentos,3/5/2019,consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit,10,34348.28,26132.71,7149.76,54125.23,32
+92.8,82.5,25.1,1.0,828300.0,firma de documentos,24/7/2018,convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est,7,26584.35,5625.3,6615.43,34501.36,31
+70.9,10.3,67.3,98.3,27256230.8,mensajeria,29/8/2018,odio cras mi pede malesuada in imperdiet et commodo vulputate justo in,6,16077.01,14834.95,7292.15,72272.54,62
+18.2,44.8,64.4,61.0,70396928.0,radicacion de documentos,13/7/2018,nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam,10,40179.01,36806.7,6792.49,14152.17,114
+73.5,84.5,59.4,63.7,127891764.0,mensajeria,6/4/2019,at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer,2,23455.93,10150.41,7076.72,21667.82,59
+63.7,97.4,44.8,63.0,109960704.0,mercancia,2/2/2019,tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis,6,30566.46,7507.12,4126.32,57468.33,52
+26.1,93.0,44.9,33.5,55954380.0,firma de documentos,6/9/2018,ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia,5,30181.04,17313.28,4609.86,65935.16,117
+85.5,22.3,96.5,71.4,61459692.0,carga aerea,5/9/2018,eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam,1,37822.11,43775.25,1354.05,84758.23,120
+5.3,90.3,16.9,14.6,8912248.8,firma de documentos,14/2/2019,amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in,2,22339.71,38033.08,9674.58,61032.17,24
+46.6,97.2,61.5,68.3,163313496.0,mercancia,10/8/2018,lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere,9,33357.41,25770.97,7310.09,70870.66,84
+82.1,75.9,38.5,94.3,110223498.0,firma de documentos,5/4/2019,in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam,6,38088.32,14312.79,6353.09,51586.39,42
+27.2,84.3,56.8,76.9,147286262.4,firma de documentos,7/7/2018,interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices,9,19909.18,11206.43,8190.45,25411.0,65
+77.5,16.1,37.8,44.1,10735351.2,firma de documentos,2/7/2018,blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla,10,32412.69,12563.63,2646.51,42310.41,90
+70.6,54.9,41.3,36.8,33375686.4,firma de documentos,26/12/2018,pretium quis lectus suspendisse potenti in eleifend quam a odio in,4,16275.16,33976.83,2187.44,71926.28,28
+56.4,82.7,67.5,44.9,100257210.0,mensajeria,30/4/2019,eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus,10,27310.92,42437.06,3863.98,28953.01,46
+43.7,84.8,12.9,26.4,11551795.2,carga aerea,26/2/2019,vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget,7,49231.35,41006.69,1526.44,87071.28,99
+25.9,2.3,42.8,26.6,1047401.6,radicacion de documentos,31/8/2018,vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend,8,13244.77,36609.04,8633.13,25334.94,96
+2.5,47.3,27.1,59.6,30558827.2,radicacion de documentos,8/2/2019,ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin,7,31956.62,22617.91,8768.26,32531.41,43
+36.2,76.3,42.4,56.6,73243116.8,carga aerea,23/6/2018,ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae,3,7824.58,12075.1,4619.48,24849.87,118
+57.7,30.3,66.5,44.1,35543718.0,firma de documentos,14/2/2019,nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla,4,13860.19,12271.41,1044.78,23233.12,98
+38.4,15.1,59.4,35.4,12700670.4,mercancia,1/11/2018,sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam,10,14097.05,18462.29,2367.72,50037.72,93
+6.3,37.3,97.9,90.3,131898320.4,firma de documentos,3/6/2018,quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi,4,3307.67,4999.37,4464.31,76926.44,46
+95.2,50.7,86.7,85.6,150508425.6,radicacion de documentos,9/7/2018,vestibulum ante ipsum primis in faucibus orci luctus et ultrices,5,11264.17,10937.78,3256.06,67663.3,29
+68.0,46.0,9.7,79.3,14153464.0,mercancia,22/3/2019,odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus,3,43539.51,22717.15,2446.18,22255.99,87
+88.1,41.3,16.9,28.4,7928939.2,carga aerea,27/10/2018,congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui,5,13897.34,8138.0,7173.72,90463.71,21
+83.5,26.6,44.5,34.1,16145668.0,carga aerea,8/7/2018,auctor sed tristique in tempus sit amet sem fusce consequat nulla,8,20929.28,27851.5,8774.45,95170.18,71
+52.3,68.5,46.3,73.3,92989846.0,mensajeria,6/2/2019,cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam,9,47205.06,44831.09,7377.92,89247.65,102
+90.1,98.0,94.7,28.3,105056392.0,firma de documentos,1/7/2018,nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue,2,11876.95,26295.08,7681.89,87844.32,32
+99.3,12.5,53.9,12.4,3341800.0,mercancia,22/11/2018,cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec,1,46223.22,30014.08,3607.94,26946.57,97
+96.0,64.3,65.7,89.7,151575418.8,mercancia,3/8/2018,nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse,1,21290.17,32022.6,2861.08,24536.14,46
+68.1,30.7,81.4,51.5,51478988.0,carga aerea,18/6/2018,viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat,10,4452.82,15857.66,2148.18,22509.83,68
+34.2,57.1,44.6,14.9,15178093.6,firma de documentos,7/6/2018,quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus,9,11798.14,15624.76,6727.12,45372.94,31
+68.6,17.4,91.8,64.5,41210856.0,mercancia,7/11/2018,metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus,6,44346.64,22354.69,1506.67,50908.79,90
+23.9,66.2,61.1,1.0,1617928.0,carga aerea,2/5/2019,dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum,1,30914.45,14291.82,9712.19,59823.78,87
+78.9,10.8,70.8,95.2,29117491.2,radicacion de documentos,4/6/2018,blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus,10,42077.77,31416.09,9709.63,76870.58,68
+42.4,22.8,76.6,98.1,68531875.2,carga aerea,5/10/2018,eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum,9,3623.35,20342.84,4798.45,28539.8,94
+75.3,41.0,26.5,9.4,4085240.0,carga aerea,14/11/2018,semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam,2,30840.0,4427.18,3093.2,69414.95,73
+72.3,47.7,23.7,95.4,43139498.4,mensajeria,27/5/2018,aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend,8,11369.5,26878.99,2266.98,93572.9,89
+71.6,22.6,12.5,43.2,4881600.0,mercancia,22/5/2019,proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius,4,3097.38,25555.8,3078.33,12841.8,77
+30.5,8.9,59.6,37.2,7892947.2,radicacion de documentos,15/1/2019,platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt,3,26631.07,9875.01,1068.64,10381.2,48
+88.4,3.1,95.3,12.3,1453515.6,radicacion de documentos,7/11/2018,proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius,3,27435.41,20477.71,6639.73,67939.58,79
+64.9,77.2,83.2,26.0,66799616.0,carga aerea,26/2/2019,faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse,7,38637.44,35602.47,7138.18,42370.66,38
+35.3,84.9,18.2,30.6,18913003.2,mercancia,24/1/2019,sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus,2,41361.17,10576.05,2169.11,1777.15,65
+57.9,36.3,60.8,85.8,75745612.8,carga aerea,9/2/2019,neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet,10,49026.12,46183.47,6074.93,24195.86,89
+93.7,97.3,78.3,35.9,109402952.4,mercancia,24/10/2018,sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus,7,45012.27,9022.44,4087.39,70821.0,89
+33.1,57.4,89.3,51.9,106412023.2,radicacion de documentos,1/1/2019,faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin,6,32734.75,30282.36,7395.97,25747.11,78
+32.3,64.8,61.1,52.2,82669766.4,radicacion de documentos,7/8/2018,luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et,1,28851.88,17490.59,4732.95,12290.18,106
+52.8,50.0,37.5,13.0,9750000.0,mensajeria,22/1/2019,in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor,5,41718.49,38063.42,7709.37,52686.39,109
+14.5,97.2,3.7,67.9,9767822.4,firma de documentos,11/4/2019,condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget,9,34392.43,42549.68,4378.98,42624.0,90
+76.0,27.3,56.1,72.8,44598153.6,radicacion de documentos,13/3/2019,velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium,10,47143.25,39683.87,1702.31,48860.23,92
+33.8,95.1,10.8,31.7,13023374.4,firma de documentos,31/5/2018,ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae,3,10550.46,29287.87,6394.81,61752.63,64
+16.4,42.1,87.1,94.4,138462521.6,radicacion de documentos,7/5/2019,pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in,4,46543.93,24232.98,1622.64,76978.96,80
+60.8,86.1,75.3,12.6,32675983.2,carga aerea,1/1/2019,sapien non mi integer ac neque duis bibendum morbi non quam nec dui,1,22482.56,40453.98,1496.64,53463.51,63
+72.8,52.8,85.9,36.2,65674329.6,mensajeria,6/5/2019,phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut,8,23265.51,45829.68,4219.97,99517.14,34
+96.7,72.6,39.3,21.8,24879729.6,firma de documentos,22/6/2018,tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare,4,48188.1,1695.37,5537.01,2100.1,114
+7.1,38.9,94.8,38.8,57233414.4,mensajeria,2/7/2018,at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis,9,6819.55,8040.81,9183.44,29264.74,51
+47.3,54.9,33.3,86.3,63108428.4,mercancia,6/3/2019,ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio,10,32701.32,26953.65,4327.03,44649.41,61
+11.1,37.9,13.3,97.7,19699055.6,mercancia,7/1/2019,at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio,2,29789.14,44790.04,7054.48,71626.79,24
+57.2,77.4,99.9,27.6,85364150.4,firma de documentos,11/4/2019,tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet,2,12953.57,23666.64,8298.21,64985.47,64
+50.4,36.9,58.0,27.6,23627808.0,radicacion de documentos,18/5/2019,aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus,9,15721.06,42012.09,6937.46,10765.66,32
+25.8,55.8,81.2,84.5,153146448.0,radicacion de documentos,18/6/2018,vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero,4,41566.08,46946.96,6510.81,53075.78,74
+57.3,10.8,29.2,4.1,517190.4,radicacion de documentos,10/6/2018,lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et,2,17619.77,40108.43,4102.0,92343.77,29
+41.3,5.8,98.2,43.1,9819214.4,firma de documentos,6/10/2018,eu massa donec dapibus duis at velit eu est congue elementum in,2,11966.9,17107.58,2163.25,30271.51,50
+47.5,45.2,37.9,49.8,34124553.6,mercancia,3/4/2019,nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta,3,12606.8,18040.94,9996.14,29952.42,63
+45.2,30.0,21.2,60.9,15492960.0,carga aerea,12/9/2018,mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel,2,39542.59,49836.5,6733.24,36994.55,77
+9.1,92.4,96.0,85.5,303367680.0,mensajeria,26/8/2018,orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis,7,46354.67,16877.34,6462.77,37562.9,110
+1.7,16.7,46.7,14.2,4429775.2,mercancia,10/10/2018,erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst,2,41121.67,30253.0,2226.57,6720.35,107
+6.0,61.0,65.6,3.7,5922368.0,firma de documentos,24/10/2018,nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa,4,21891.04,43915.25,4377.87,26766.07,34
+91.9,39.7,25.8,32.5,13315380.0,radicacion de documentos,18/1/2019,dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi,6,17614.45,22636.62,8890.27,98822.49,47
+72.0,53.1,56.9,55.6,67195713.6,radicacion de documentos,4/1/2019,in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis,2,44767.74,10875.96,8536.94,66619.05,54
+34.6,6.5,70.7,29.2,5367544.0,carga aerea,14/7/2018,fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti,3,16925.15,40528.54,1728.41,38500.01,97
+55.1,40.3,68.5,16.0,17667520.0,firma de documentos,9/8/2018,tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem,2,28652.03,2417.03,1867.13,8176.85,98
+20.2,52.9,75.1,61.0,96936076.0,radicacion de documentos,19/12/2018,nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris,10,46616.93,4913.21,6926.65,95650.17,54
+7.1,52.4,89.2,6.5,12152608.0,radicacion de documentos,20/7/2018,nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu,7,28020.43,18097.01,9787.42,49139.4,97
+45.2,83.1,64.9,49.0,105706524.0,radicacion de documentos,25/7/2018,dapibus duis at velit eu est congue elementum in hac,2,42309.06,43831.87,3516.73,99025.57,72
+36.1,26.0,20.4,72.8,15445248.0,radicacion de documentos,9/1/2019,convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero,5,42041.12,42368.31,3367.65,16224.0,26
+62.0,20.3,9.9,79.8,6414962.4,carga aerea,21/11/2018,consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in,9,35220.51,9241.58,7161.01,94163.67,26
+1.5,56.3,91.0,48.0,98367360.0,firma de documentos,19/4/2019,at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas,2,26084.27,15697.55,9903.91,46884.1,75
+87.4,36.5,44.0,41.4,26595360.0,carga aerea,9/8/2018,aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer,3,38800.69,14649.11,6333.71,34750.53,63
+14.8,67.9,1.8,30.9,1510639.2,mercancia,21/6/2018,eu mi nulla ac enim in tempor turpis nec euismod,9,43366.69,42982.6,3811.07,28599.43,75
+4.3,84.9,6.2,53.2,11201366.4,radicacion de documentos,28/6/2018,quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi,7,31675.67,24027.74,7650.24,16480.02,68
+3.8,27.9,20.9,73.3,17096785.2,carga aerea,3/8/2018,vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in,8,9518.07,1364.08,6336.2,12619.56,110
+83.6,9.0,67.2,42.0,10160640.0,radicacion de documentos,12/4/2019,lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer,2,28145.35,13466.22,9885.74,27251.29,119
+28.8,67.1,97.9,47.4,124549946.4,mercancia,11/6/2018,sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc,4,12765.55,24744.6,2564.86,60785.34,80
+19.9,10.3,8.1,91.3,3046863.6,carga aerea,27/2/2019,aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut,7,45823.16,4047.55,5959.06,1917.03,26
+95.8,96.4,19.2,14.6,10809139.2,firma de documentos,4/4/2019,tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est,2,27247.62,42092.42,3012.69,62393.67,37
+78.1,54.3,45.5,75.8,74910108.0,mensajeria,3/5/2019,massa id nisl venenatis lacinia aenean sit amet justo morbi,7,35206.25,43499.61,9262.93,57933.81,64
+66.3,43.9,76.9,82.5,111405030.0,mensajeria,20/7/2018,ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam,8,7097.22,49194.84,1983.02,18696.9,99
+73.6,67.4,26.1,25.6,18013593.6,mensajeria,7/4/2019,dictumst etiam faucibus cursus urna ut tellus nulla ut erat id,10,13716.77,45839.82,8927.23,25735.71,68
+14.6,33.3,73.6,63.4,62154316.8,radicacion de documentos,22/2/2019,ligula vehicula consequat morbi a ipsum integer a nibh in quis,10,8519.61,49220.76,6069.7,77001.23,39
+33.3,81.2,33.6,32.8,35795558.4,mensajeria,27/4/2019,posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar,3,8356.79,10130.75,1195.7,47272.4,106
+15.9,34.6,84.0,15.1,17554656.0,radicacion de documentos,6/12/2018,ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis,3,17643.55,38694.11,8002.68,95907.35,22
+86.3,39.0,26.2,70.3,28733016.0,firma de documentos,2/4/2019,tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit,6,31883.1,41842.56,7582.57,58556.59,80
+51.5,7.0,68.1,66.3,12642084.0,firma de documentos,1/11/2018,nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper,4,9269.33,48649.93,1188.34,2619.46,51
+9.7,36.1,8.8,40.5,5146416.0,mensajeria,14/6/2018,duis mattis egestas metus aenean fermentum donec ut mauris eget massa,4,29566.61,35447.73,3389.78,77182.48,109
+76.9,82.2,58.3,8.8,16868755.2,mercancia,18/3/2019,habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id,2,19733.67,30338.35,5797.95,2689.54,108
+83.5,84.0,97.5,55.4,181490400.0,carga aerea,20/12/2018,ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra,9,1540.34,11064.95,1353.53,61149.83,86
+9.5,90.6,89.5,38.1,123576588.0,radicacion de documentos,17/7/2018,vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur,4,2974.25,45814.17,8711.14,25956.54,41
+3.0,58.4,54.7,42.1,53795043.2,mensajeria,27/7/2018,lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi,7,44882.54,19663.97,4882.0,40617.06,80
+91.9,41.2,34.9,28.5,16391832.0,firma de documentos,17/2/2019,at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat,4,39758.7,15736.53,9813.82,5280.36,27
+43.2,70.9,61.2,37.4,64912636.8,mercancia,11/8/2018,morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce,7,19610.13,16796.32,6132.63,72223.59,31
+98.2,90.7,67.6,58.8,144208646.4,mensajeria,13/12/2018,a ipsum integer a nibh in quis justo maecenas rhoncus aliquam,8,29522.58,36845.72,7583.36,3428.19,96
+94.8,82.2,66.3,61.5,134066556.0,radicacion de documentos,19/8/2018,nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum,10,42309.74,29757.56,1666.53,75411.0,80
+43.9,73.6,45.3,5.1,6801523.2,radicacion de documentos,6/9/2018,mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus,5,43585.89,34137.63,8734.1,13640.35,52
+83.6,14.8,83.3,22.6,11144873.6,mercancia,26/3/2019,integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel,10,25155.26,42794.06,8694.11,79054.73,107
+54.9,51.4,70.3,36.5,52755932.0,mensajeria,1/12/2018,eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum,3,22704.46,3528.12,3348.31,20040.06,114
+54.8,5.5,10.8,78.1,1855656.0,firma de documentos,19/10/2018,fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit,10,41121.2,12514.02,3442.05,84411.8,103
+86.2,10.9,63.3,93.4,25777279.2,carga aerea,9/12/2018,sed magna at nunc commodo placerat praesent blandit nam nulla,3,14699.89,18031.25,6919.51,72450.76,58
+5.1,56.0,41.3,65.2,60317824.0,radicacion de documentos,3/9/2018,vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci,8,43587.99,45173.72,6638.2,32043.07,55
+93.1,28.2,70.9,31.5,25192188.0,mensajeria,22/4/2019,at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut,4,38499.37,24260.19,6277.98,35688.74,34
+11.4,30.6,51.3,93.3,58584189.6,carga aerea,3/10/2018,et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet,7,32339.24,21352.67,4786.87,62235.88,73
+36.5,8.1,39.1,10.1,1279508.4,carga aerea,17/1/2019,congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien,2,11466.64,17142.27,3752.45,83745.03,74
+70.9,80.8,90.6,76.7,224592326.4,carga aerea,9/7/2018,nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet,6,6664.39,48780.11,2392.84,85403.25,37
+84.6,83.1,5.0,67.4,11201880.0,radicacion de documentos,20/10/2018,leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id,10,5772.08,2002.91,9256.3,1724.34,27
+23.8,66.8,57.6,92.2,141902438.4,mensajeria,25/2/2019,in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus,1,42181.67,31094.62,4904.7,18967.67,96
+33.0,79.5,71.8,81.7,186540708.0,radicacion de documentos,2/7/2018,eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla,6,49149.24,14498.01,5693.17,37821.42,27
+91.3,19.6,70.9,68.6,38131721.6,firma de documentos,27/12/2018,accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec,4,7970.3,6054.27,2636.16,92777.41,21
+28.9,34.1,36.3,97.2,48126830.4,mercancia,29/4/2019,neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et,4,1878.89,1332.47,1505.54,55151.17,45
+79.0,8.0,98.2,81.8,25704832.0,mensajeria,13/8/2018,a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit,8,22404.47,25716.37,2643.83,37674.66,64
+4.8,96.4,67.2,96.2,249276518.4,mensajeria,13/5/2019,ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis,5,36956.31,49060.97,5708.07,60487.3,29
+22.9,17.4,49.7,77.1,26669815.2,radicacion de documentos,29/12/2018,orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor,5,29565.8,36878.74,5649.24,12980.18,64
+43.3,93.0,88.2,29.4,96462576.0,radicacion de documentos,19/10/2018,odio in hac habitasse platea dictumst maecenas ut massa quis,1,13495.55,33312.23,6152.02,18549.85,33
+40.2,8.8,19.9,6.5,455312.0,mensajeria,5/8/2018,donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum,6,25300.2,19482.64,7403.79,55718.01,108
+1.9,34.6,89.7,99.5,123524076.0,mensajeria,31/1/2019,nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo,3,47868.75,35291.59,5953.36,45127.82,119
+37.7,47.1,79.7,94.9,142496905.2,radicacion de documentos,10/3/2019,fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi,6,35599.69,44140.5,2629.41,22756.69,42
+34.6,78.0,55.4,29.1,50298768.0,mercancia,6/1/2019,ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero,5,2868.85,24021.49,8770.01,26632.22,119
+88.7,10.8,45.2,13.1,2557958.4,carga aerea,10/10/2018,nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel,1,9225.15,44651.08,7664.77,41725.06,119
+44.4,71.8,99.6,7.0,20023584.0,carga aerea,14/8/2018,ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis,10,45090.28,45254.02,1497.02,35741.79,101
+93.3,67.8,87.4,75.4,178719715.2,radicacion de documentos,1/8/2018,id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in,10,8112.51,16629.59,3300.33,42026.82,47
+71.2,87.1,13.9,87.9,42567860.4,mercancia,25/2/2019,vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium,3,17199.32,21507.08,4196.11,69243.05,107
+27.9,35.2,38.6,53.6,29130956.8,mensajeria,1/11/2018,id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet,10,44806.06,23607.56,1572.75,57378.99,104
+42.1,90.6,57.0,83.6,172690848.0,firma de documentos,25/12/2018,penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum,6,49256.94,17205.47,2537.28,3118.66,86
+23.2,92.3,20.3,3.4,2548218.4,mensajeria,9/3/2019,nisi at nibh in hac habitasse platea dictumst aliquam augue,10,26413.89,41278.29,5290.57,88835.45,23
+57.4,53.4,14.0,14.6,4365984.0,firma de documentos,3/9/2018,cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum,4,30610.1,39477.25,4451.09,86282.83,33
+62.5,67.9,54.8,23.8,35423158.4,carga aerea,31/7/2018,etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit,8,46579.09,30561.4,9165.28,34463.98,62
+64.0,62.7,14.5,29.1,10582506.0,mensajeria,24/6/2018,odio cras mi pede malesuada in imperdiet et commodo vulputate justo,6,28026.28,22368.05,9044.36,40114.82,76
+66.1,27.1,29.7,38.2,12298413.6,radicacion de documentos,14/2/2019,ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit,4,31141.15,7590.3,1701.2,49817.14,50
+64.0,61.6,16.0,23.9,9422336.0,carga aerea,21/10/2018,at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in,4,1748.34,40638.09,1497.98,62902.51,63
+71.1,44.9,98.1,2.3,4052314.8,mercancia,19/1/2019,lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce,7,6422.73,41602.69,1416.58,29584.49,77
+92.8,89.4,68.1,12.4,30197174.4,mercancia,4/4/2019,lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est,9,20796.17,33814.42,3359.72,1767.79,92
+63.7,74.2,23.6,99.0,69344352.0,radicacion de documentos,28/2/2019,orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui,10,27526.99,24011.82,1709.6,13560.14,51
+59.7,76.6,98.8,13.9,42078524.8,carga aerea,6/5/2019,felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam,4,6136.06,33302.33,4114.0,9146.84,73
+37.2,24.3,31.7,73.5,22647114.0,radicacion de documentos,18/9/2018,nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus,4,39654.28,37379.03,8132.52,19617.18,112
+50.9,57.1,87.5,24.0,47964000.0,radicacion de documentos,10/12/2018,consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla,3,39798.08,18170.15,3681.03,91382.57,81
+56.7,72.0,40.8,66.5,78140160.0,carga aerea,30/10/2018,scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis,5,26731.87,48593.74,7582.25,9577.31,21
+59.4,5.6,58.7,28.3,3721110.4,carga aerea,13/4/2019,turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia,5,20355.23,33359.86,2429.92,22462.56,82
+61.6,90.7,65.4,28.3,67147749.6,firma de documentos,5/12/2018,id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit,8,7753.81,21080.28,2285.91,59785.21,94
+63.8,69.0,61.7,31.8,54152856.0,mercancia,26/7/2018,nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi,7,39604.31,7208.43,1672.85,69867.84,39
+36.1,33.9,2.3,77.5,2417070.0,mercancia,25/3/2019,platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur,4,3141.2,32276.14,8283.36,14586.91,50
+87.9,92.6,59.4,95.4,209896790.4,carga aerea,29/10/2018,ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non,4,28694.25,41006.39,1015.77,12740.5,26
+81.6,81.7,3.0,72.2,7078488.0,firma de documentos,6/8/2018,augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus,5,35806.87,12826.96,4311.26,46705.5,52
+1.8,9.7,79.4,25.0,7701800.0,carga aerea,13/4/2019,tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis,7,45658.92,17363.99,7823.16,90150.24,58
+27.3,51.4,60.4,56.1,69666326.4,carga aerea,20/5/2019,cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut,3,8296.43,17283.25,7003.2,53766.68,91
+7.5,62.0,21.4,7.3,3874256.0,mensajeria,1/4/2019,turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed,1,40719.61,12874.68,4671.92,49210.0,56
+65.2,16.1,20.4,49.3,6476836.8,mercancia,12/8/2018,quis lectus suspendisse potenti in eleifend quam a odio in hac,10,38243.56,13021.84,2422.15,42622.01,42
+90.5,24.1,1.7,99.6,1632244.8,mensajeria,17/12/2018,sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse,4,38331.07,45156.78,4669.17,16356.24,48
+45.8,65.2,37.8,11.9,11731305.6,firma de documentos,14/11/2018,fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue,7,3661.95,44104.74,7290.65,73059.29,76
+38.8,61.1,28.8,95.0,66867840.0,mensajeria,5/7/2018,eleifend quam a odio in hac habitasse platea dictumst maecenas,1,38046.88,46705.08,6580.04,10350.44,102
+24.5,18.0,28.7,25.0,5166000.0,mensajeria,13/7/2018,pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla,6,38855.96,11195.37,3641.08,25959.23,51
+55.4,35.5,27.8,90.1,35567876.0,mensajeria,26/4/2019,nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat,3,1061.76,25019.44,2916.25,46974.32,101
+67.6,89.0,22.8,79.4,64447392.0,carga aerea,25/12/2018,vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum,9,14112.44,37679.64,2944.06,42846.43,118
+58.6,86.6,52.7,20.5,37423324.0,carga aerea,30/9/2018,dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque,10,35910.06,45124.06,6675.45,49118.54,33
+9.7,64.8,90.1,8.0,18683136.0,mensajeria,2/7/2018,cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus,2,48955.53,5389.71,3504.57,94959.17,86

@@ -41,6 +41,99 @@ insert into Servicios(Nombre) values('Verificar luces');
 insert into Servicios(Nombre) values('Verificar tablero');
 insert into Servicios(Nombre) values('Verificar liquido de frenos');
 insert into Servicios(Nombre) values('Verificar carga de bateria');
+insert into Servicios(Nombre) values('Estado de alternador y arranque');
+insert into Servicios(Nombre) values('Desgaste de articulaciones y rotulas');
+insert into Servicios(Nombre) values('estado del guardapolvos');
+insert into Servicios(Nombre) values('Sistema de admisión, mangueras y tuberías');
+insert into Servicios(Nombre) values('Revisión del nivel de los líquidos (Frenos, agua o refrigerante, aceite, líquido de motor, etc.');
+insert into Servicios(Nombre) values('Realizar lavado del motor');
+insert into Servicios(Nombre) values('Revisar tensión de freno de pie y de mano');
+insert into Servicios(Nombre) values('Alineación, balanceo y rotación de las llantas para garantizar un desgaste parejo.');
+insert into Servicios(Nombre) values('Inspección del sistema eléctrico.');
+insert into Servicios(Nombre) values('Sustitución de las pastillas de frenos y de bandas traseras');
+insert into Servicios(Nombre) values('Cambio de aceite de dirección, transmisión y caja de velocidades');
+insert into Servicios(Nombre) values('Calibrar los frenos');
+insert into Servicios(Nombre) values('Calibrar las llantas y rotarlas nuevamente');
+insert into Servicios(Nombre) values('Engrasar los rodamientos de las llantas');
+insert into Servicios(Nombre) values('mantenimiento y sondeo del radiador');
+insert into Servicios(Nombre) values('sincronizar el motor de inyección o de carburador');
+insert into Servicios(Nombre) values('Ajustar suspension');
+insert into Servicios(Nombre) values('Alinear el vehículo');
+insert into Servicios(Nombre) values('Sincronizar el motor');
+insert into Servicios(Nombre) values('Cambiar las pastillas y el líquido de frenos, bujías de encendido, cables de alta y correas');
+insert into Servicios(Nombre) values('Sustituir el líquido refrigerante, de radiador, aceite y su filtro.');
+insert into Servicios(Nombre) values('Realizar peritaje especializado para prevención de fallas.');
+
+-- 5000 kilometros
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (5000, 1);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (5000, 2);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (5000, 3);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (5000, 4);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (5000, 5);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (5000, 6);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (5000, 7);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (5000, 8);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (5000, 9);
+
+-- 10000 kilometros
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (10000, 8);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (10000, 9);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (10000, 22);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (10000, 23);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (10000, 24);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (10000, 25);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (10000, 26);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (10000, 27);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (10000, 28);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (10000, 29);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (10000, 30);
+
+-- 20000 kilometros
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (20000, 1);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (20000, 2);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (20000, 3);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (20000, 31);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (20000, 32);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (20000, 33);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (20000, 34);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (20000, 6);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (20000, 39);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (20000, 35);
+
+-- 40000 kilometros
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (40000, 1);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (40000, 2);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (40000, 3);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (40000, 31);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (40000, 32);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (40000, 33);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (40000, 34);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (40000, 6);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (40000, 39);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (40000, 35);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (40000, 36);
+
+-- 50000 kilometros
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (50000, 1);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (50000, 2);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (50000, 3);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (50000, 31);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (50000, 32);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (50000, 33);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (50000, 34);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (50000, 6);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (50000, 39);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (50000, 35);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (50000, 37);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (50000, 38);
+
+-- 100000 kilometros
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (100000, 39);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (100000, 40);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (100000, 38);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (100000, 41);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (100000, 42);
+insert into Plan_Mantenimientos(Kilometraje, Id_Servicio) values (100000, 43);
 
 insert into Detalles(Id_Servicio, Id_Mantenimiento, Id_Estado, Observaciones) values(1, 1, 1, 'Se realiza cambio de aceite');
 insert into Detalles(Id_Servicio, Id_Mantenimiento, Id_Estado, Observaciones) values(2, 1, 1, 'Se realiza cambio filtro de aceite');

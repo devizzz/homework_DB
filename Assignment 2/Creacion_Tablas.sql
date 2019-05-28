@@ -98,6 +98,14 @@ CREATE TABLE Servicios (
 );
 ALTER TABLE Servicios ADD PRIMARY KEY (Id) ENABLE;
 
+CREATE TABLE Plan_Mantenimientos(
+    Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
+    Kilometraje number not null,
+    Id_Servicio number not null,
+    constraint fk_Id_Servicio_Plan_Mantenimientos foreign key (Id_Servicio) references Servicios (Id)
+);
+ALTER TABLE Plan_Mantenimientos ADD PRIMARY KEY (Id) ENABLE;
+
 CREATE TABLE Detalles (
   Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
   Id_Servicio number not null,
@@ -145,7 +153,7 @@ CREATE TABLE Guias (
 );
 ALTER TABLE Guias ADD PRIMARY KEY (Id) ENABLE;
 ALTER TABLE Guias ADD CONSTRAINT check_Tipo_Servicio
-  CHECK (Tipo_Servicio IN ('carga aérea', 'mercancía', 'mensajería', 'firma de documentos', 'radicación de documentos'));
+  CHECK (Tipo_Servicio IN ('carga aerea', 'mercancia', 'mensajeria', 'firma de documentos', 'radicacion de documentos'));
 
 CREATE TABLE Estados_Guias (
   Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
