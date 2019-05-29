@@ -10,10 +10,10 @@ insert into Centros_recibos(Id_CodigoPostal, Nombre, Direccion, telefono, Tipo_d
 insert into Centros_recibos(Id_CodigoPostal, Nombre, Direccion, telefono, Tipo_de_Centro) values(1015, 'Av. Ferrocarril', 'Cra. 57 No.49-91', '2314053', 'Convencional');
 insert into Centros_recibos(Id_CodigoPostal, Nombre, Direccion, telefono, Tipo_de_Centro) values(1015, 'Palacio de Exposiciones', 'Calle 41 # 55 – 35', '2328814', 'Convencional');
 
-insert into Empleados_por_Centros(Id_Centro, Id_empleado, Encargado) values(1, 1, 'Y');
-insert into Empleados_por_Centros(Id_Centro, Id_empleado, Encargado) values(2, 2, 'Y');
-insert into Empleados_por_Centros(Id_Centro, Id_empleado, Encargado) values(3, 3, 'Y');
-insert into Empleados_por_Centros(Id_Centro, Id_empleado, Encargado) values(1, 4, 'N');
+insert into Empleados_por_Centros(Id_Centro, Id_empleado, Encargado, FechaRegistro, Estado) values(1, 1, 'Y', sysdate, 1);
+insert into Empleados_por_Centros(Id_Centro, Id_empleado, Encargado, FechaRegistro, Estado) values(2, 2, 'Y', sysdate, 1);
+insert into Empleados_por_Centros(Id_Centro, Id_empleado, Encargado, FechaRegistro, Estado) values(3, 3, 'Y', sysdate, 1);
+insert into Empleados_por_Centros(Id_Centro, Id_empleado, Encargado, FechaRegistro, Estado) values(1, 4, 'N', sysdate, 1);
 
 insert into Vehiculos(Placa, Marca, Modelo, Linea, Tipo_combustible, kilometraje, Id_Centro_recibo) values('WLI367', 'Hyundai', '2018', 'i10 grand', 'Gasolina', 22532, 1, '1TON');
 insert into Vehiculos(Placa, Marca, Modelo, Linea, Tipo_combustible, kilometraje, Id_Centro_recibo) values('MOF948', 'VOLVO', '2019', 'V90', 'Disel', 15000, 2, '1TON');
