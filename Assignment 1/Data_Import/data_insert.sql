@@ -157,7 +157,7 @@ insert into Tipos_Servicios(Nombre) values('radicación de documentos');
 insert into Clientes(Nombre, Cedula, Telefono, Direccion) values('David Alejandro Cordoba', '1020453059', '5554578', 'cll luna calle sol');
 insert into Clientes(Nombre, Cedula, Telefono, Direccion) values('Juan esteban herrera', '1020453057', '5554577', 'cll sol calle luna');
 
-insert into Guias(Peso_real, Ancho, Alto, Largo, Peso_Volumen, Id_Tipo_Servicio, Fecha, Observaciones, Cantidad, Flete_fijo, Flete_variables, Otras_variables, Valor_Servicio) 
+insert into Guias(Peso_real, Ancho, Alto, Largo, Peso_Volumen, Tipo_Servicio, Fecha, Observaciones, Cantidad, Flete_fijo, Flete_variables, Otras_variables, Valor_Servicio) 
 values(15.3, 13.5, 18.3, 20.7, 2045.574, 1, SYSDATE, 'Empieza el proceso', 1, 12448.4, 25522.5, 22626.5, 52563.5);
 
 insert into Estados_Guias(Id_Estados, Id_Guia) values(3, 1);

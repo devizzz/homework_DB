@@ -86,9 +86,11 @@ CREATE TABLE Mantenimientos (
   Id_Estado number not null,
   Id_Empleado number not null,
   Kilometraje number not null,
+  IdCentro number not null,
   constraint fk_Id_Estado foreign key (Id_Estado) references Estados (Id),
   constraint fk_Id_Vehiculo foreign key (Id_Vehiculo) references Vehiculos (Id),
-  constraint fk_Id_Empleado_Mantenimientos foreign key (Id_Empleado) references Empleados (Id)
+  constraint fk_Id_Empleado_Mantenimientos foreign key (Id_Empleado) references Empleados (Id),
+  constraint fk_Id_Centros_recibos foreign key (IdCentro) references Centros_recibos (Id)
 );
 ALTER TABLE Mantenimientos ADD PRIMARY KEY (Id) ENABLE;
 
@@ -191,4 +193,13 @@ ALTER TABLE Ubicaciones_por_Guias ADD PRIMARY KEY (Id) ENABLE;
 --  constraint fk_Id_Clientes_ClientesGuias foreign key (Id_Cliente) references Clientes (Id)
 --);
 --ALTER TABLE Clientes_por_Guias ADD PRIMARY KEY (Id) ENABLE;
-
+drop table COTIZADOR_PRECIOS
+CREATE TABLE COTIZADOR_PRECIOS (
+    Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
+    centro_recibo_id number not null,
+    destino_id number not null,
+    precio_kilo decimal,
+    constraint fk_Id_centro_recibo_Cotizador foreign key (centro_recibo_id) references Centros_recibos (Id),
+    constraint fk_Id_destino foreign key (destino_id) references Cod_postales_por_municipios (Id)
+)
+ALTER TABLE COTIZADOR_PRECIOS ADD PRIMARY KEY (Id) ENABLE;

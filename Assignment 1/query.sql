@@ -24,7 +24,7 @@ alter session set "_ORACLE_SCRIPT"=true;
 
 -- Tercer punto
 -- Creamos el usuario amartinezg sin restricciones de espacio
-drop user amartinezg cascade
+drop user amartinezg cascade;
 create user amartinezg
 identified by amartinezg
 default tablespace coordinadora;
