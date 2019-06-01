@@ -126,7 +126,11 @@ create or replace view precios AS
 select * from precios where Origen = 'BARRANQUILLA';
 
 -- Punto 7 ==============================================================================================================================
-
+CREATE OR REPLACE PROCEDURE calcular_peso_volumetrico
+IS
+BEGIN
+    update guias set Peso_Volumen = Ancho * Alto * Largo * 400;
+END calcular_peso_volumetrico;
 
 -- Punto 8 ==============================================================================================================================
 create or replace function ReturnDecimal(peso_real IN number, peso_volumen IN number, centro_recibo_origen IN number, ciudad_destino IN VARCHAR2)
