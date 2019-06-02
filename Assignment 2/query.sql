@@ -4,12 +4,13 @@ create or replace view plan_mantenimiento_detallado AS
     select p.Kilometraje, s.Nombre Item from Plan_Mantenimientos p
     inner join Servicios s on p.Id_Servicio = s.Id;
 -- Ejecutamos la vista
-select * from plan_mantenimiento_detallado where Kilometraje = 50000;
+select * from plan_mantenimiento_detallado where Kilometraje = 5000;
 
 -- Punto 3 =========================================================================================================================================================
 Create or replace procedure Programar_mantenimiento
 (IdVehiculo in number)
 IS
+    -- variables locales
     Id_No_Valid EXCEPTION;
     kilometrajePlan number; kilometrajeVehiculo number; idEmpleado number; IdCentro number;
     IdMantenimiento number;
@@ -22,10 +23,10 @@ BEGIN
     
     -- buscamos el kilometrake del mantenimiento mas proximo
     select a.kilometraje into kilometrajePlan from (select p.kilometraje from Vehiculos v, Plan_Mantenimientos p
-    where p.kilometraje > v.kilometraje and v.id = 21
+    where p.kilometraje > v.kilometraje and v.id = idvehiculo
     group by p.kilometraje
     order by p.kilometraje asc) a
-    where ROWNUM <= 1;
+    where ROWNUM = 1;
     dbms_output.put_line('lleo al sp valor: ' || IdVehiculo );
     -- capturamos el kilometraje del vehiculo
     select kilometraje into kilometrajeVehiculo from Vehiculos where id = IdVehiculo;
@@ -38,7 +39,7 @@ BEGIN
         -- buscamos de forma aleatoria un empleado del cetro de recibo
         SELECT e.Id_Empleado into idEmpleado FROM ( SELECT Id_Empleado FROM  Empleados_por_Centros where Id_Centro = IdCentro ORDER BY DBMS_RANDOM.VALUE) e WHERE  rownum <= 1;
         -- insertamos el mantenimiento
-        insert into Mantenimientos (FECHA, ID_VEHICULO, ID_ESTADO, ID_EMPLEADO, KILOMETRAJE, IDCENTRO) values (SYSDATE, IdVehiculo, 2, idEmpleado,kilometrajeVehiculo, IdCentro);
+        insert into Mantenimientos (FECHA, ID_VEHICULO, ID_ESTADO, ID_EMPLEADO, KILOMETRAJE, IDCENTRO) values (SYSDATE + 2, IdVehiculo, 2, idEmpleado,kilometrajeVehiculo, IdCentro);
         -- Buscamos el id del mantenimiento insertado
         SELECT m.ID into IdMantenimiento FROM ( SELECT ID FROM  Mantenimientos ORDER BY ID desc) m WHERE  rownum <= 1;
         -- Insertamos los detalles
@@ -46,8 +47,7 @@ BEGIN
         select ID_Servicio, IdMantenimiento, 2, '' from Plan_Mantenimientos where kilometraje = kilometrajePlan;
         
         dbms_output.put_line('Se ha insertado');
-    END IF;
-    
+    END IF;  
 EXCEPTION
     WHEN Id_No_Valid THEN
         dbms_output.put_line('Valor debe ser mayor a 0');
@@ -61,21 +61,25 @@ END Programar_mantenimiento;
 begin
     Programar_mantenimiento (21);
 end;
-
+select * from vehiculos where id = 21;
+select * from Mantenimientos;
+select * from detalles;
+delete detalles;
+delete Mantenimientos;
 -- Punto 4 ======================================================================================================================================================================
 CREATE OR REPLACE TRIGGER TR_Vehiculos
     FOR UPDATE ON Vehiculos
     COMPOUND TRIGGER
-
+    -- variable local
     id NUMBER;
 
--- Se lanzará después de cada fila actualizada
+-- Se lanzarÃ¡ despuÃ©s de cada fila actualizada
 AFTER EACH ROW IS
     BEGIN
-        dbms_output.put_line('Se realizó la actualización');
+        dbms_output.put_line('Se realizÃ³ la actualizaciÃ³n');
         id := :new.id;
     END AFTER EACH ROW;
--- Se lanzará después de la sentencia
+-- Se lanzarÃ¡ despuÃ©s de la sentencia
 AFTER STATEMENT IS
     BEGIN
         dbms_output.put_line('Entro');
@@ -84,11 +88,7 @@ AFTER STATEMENT IS
 END TR_Vehiculos;
 -- validamos que funcione
 select * from vehiculos where id = 21;
-update vehiculos set kilometraje = 4850 where id = 21;
-select * from Mantenimientos;
-select * from Detalles;
-delete detalles;
-delete Mantenimientos;
+update vehiculos set kilometraje = 4820 where id = 21;
 
 -- PUNTO 5 ==================================================================================================================================
 CREATE OR REPLACE PROCEDURE recalcular_tarifas
@@ -159,7 +159,7 @@ begin
         RAISE centro_recibo_origen_No_Valid;
     END IF; 
     
-    -- Validamos que el ciudad_destino no sea vacío
+    -- Validamos que el ciudad_destino no sea vacÃ­o
     IF ciudad_destino = '' THEN
         RAISE ciudad_destino_No_Valid;
     END IF;  
@@ -226,15 +226,14 @@ BEGIN
 END calcular_fletes;
 
 update guias set Valor_servicio = 0 where Id <= 10;
-select Valor_servicio, otras_variables from guias order by id;
+select Valor_servicio from guias order by id;
 select * from guias order by id;
 begin
     calcular_fletes();
 end;
 
-drop table Estados_Guias;
-drop table Guias;
 
+-- aparte, lleno los centro origen de las guias de forma aleatoria
 begin
     for i in (select id from guias) loop
         update guias set Id_Centro_Origen = (select id from (select id from Centros_recibos order by dbms_random.VALUE) where ROWNUM = 1)
@@ -242,3 +241,4 @@ begin
     end loop;
 end;
 --select * from precios p where p.Origen = 'CALI' and p.Nombre_Destino = 'CORINTO' and centro_recibo_id = 79; 
+commit
