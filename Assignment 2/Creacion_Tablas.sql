@@ -141,7 +141,7 @@ CREATE TABLE Guias (
   Ancho double precision,
   Alto double precision,
   Largo double precision,
-  Peso_Volumen double precision,
+  Peso_Volumen double precision, -- multiplicacion entre ancho * alto * largo * 400 
   Tipo_Servicio varchar(255) not null,
   Fecha date not null,
   Observaciones varchar2(255),
@@ -150,9 +150,14 @@ CREATE TABLE Guias (
   Flete_variables decimal,
   Otras_variables decimal,
   Valor_Servicio decimal,
-  Id_Cliente int not null,
-  constraint fk_Id_Cliente foreign key (Id_Cliente) references Clientes (Id)
+  Id_Cliente number not null,
+  Id_Centro_Origen number not null,
+  Destino number not null,
+  constraint fk_Id_Cliente foreign key (Id_Cliente) references Clientes (Id),
+  constraint fk_Id_Centro_Origen foreign key (Id_Centro_Origen) references Centros_recibos (Id),
+  constraint fk_Destino foreign key (Destino) references Cod_postales_por_municipios (Id)
 );
+
 ALTER TABLE Guias ADD PRIMARY KEY (Id) ENABLE;
 ALTER TABLE Guias ADD CONSTRAINT check_Tipo_Servicio
   CHECK (Tipo_Servicio IN ('carga aerea', 'mercancia', 'mensajeria', 'firma de documentos', 'radicacion de documentos'));
@@ -175,15 +180,15 @@ ALTER TABLE Estados_Guias ADD PRIMARY KEY (Id) ENABLE;
 --);
 --ALTER TABLE Ubicaciones ADD PRIMARY KEY (Id) ENABLE;
 
-CREATE TABLE Ubicaciones_por_Guias (
-  Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
-  Id_Ubicacion number not null,
-  Id_Guia number not null,
-  OrigenDestino char(1) check (OrigenDestino in ( 'O', 'D' )),
-  constraint fk_Id_Ubicacion foreign key (Id_Ubicacion) references Cod_postales_por_municipios (Id),
-  constraint fk_Id_Guia1 foreign key (Id_Guia) references Guias (Id)
-);
-ALTER TABLE Ubicaciones_por_Guias ADD PRIMARY KEY (Id) ENABLE;
+--CREATE TABLE Ubicaciones_por_Guias (
+--  Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
+--  Id_Ubicacion number not null,
+--  Id_Guia number not null,
+--  OrigenDestino char(1) check (OrigenDestino in ( 'O', 'D' )),
+--  constraint fk_Id_Ubicacion foreign key (Id_Ubicacion) references Cod_postales_por_municipios (Id),
+--  constraint fk_Id_Guia1 foreign key (Id_Guia) references Guias (Id)
+--);
+--ALTER TABLE Ubicaciones_por_Guias ADD PRIMARY KEY (Id) ENABLE;
 
 --CREATE TABLE Clientes_por_Guias (
 --  Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
@@ -193,13 +198,13 @@ ALTER TABLE Ubicaciones_por_Guias ADD PRIMARY KEY (Id) ENABLE;
 --  constraint fk_Id_Clientes_ClientesGuias foreign key (Id_Cliente) references Clientes (Id)
 --);
 --ALTER TABLE Clientes_por_Guias ADD PRIMARY KEY (Id) ENABLE;
-drop table COTIZADOR_PRECIOS
+
 CREATE TABLE COTIZADOR_PRECIOS (
     Id number GENERATED ALWAYS as IDENTITY(START with 1 INCREMENT by 1),
     centro_recibo_id number not null,
     destino_id number not null,
-    precio_kilo decimal,
+    precio_kilo decimal(18,2),
     constraint fk_Id_centro_recibo_Cotizador foreign key (centro_recibo_id) references Centros_recibos (Id),
     constraint fk_Id_destino foreign key (destino_id) references Cod_postales_por_municipios (Id)
-)
+);
 ALTER TABLE COTIZADOR_PRECIOS ADD PRIMARY KEY (Id) ENABLE;
